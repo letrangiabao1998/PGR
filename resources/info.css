@@ -1,0 +1,95 @@
+html {
+    background-color: #acacac;
+}
+
+body {
+    background-color: #acacac;
+}
+
+.tabs {
+    width: 100%;
+    height: 30px;
+    padding-left: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+a {
+    color: black;
+}
+
+.tabs li {
+    float: left;
+    list-style: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    /*margin-right:5px;*/
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    outline: none;
+}
+
+.tabs li a {
+    font-size: small;
+    color: #ca2121;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 4px;
+    display: block;
+    background: #9F9F9F;
+    ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-decoration: none;
+    outline: none;
+}
+
+.tabs li a.inactive {
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: #2e2e2e;
+    background: #EEE;
+    outline: none;
+}
+
+.tabs li a:hover {
+    color: #3e18e6;
+    outline: none;
+}
+
+.container {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    display: none;
+}
+
+.container.active {
+    display: block;
+}
+
+.spacer {
+    height: 29px;
+    width: 5px;
+    border-top: 0 !important;
+    border-bottom: 1px solid #ccc;
+    padding: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+.spacer:last-child {
+    width: 58%;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 530px) {
+    .char {
+      width: 100%;
+    }
+  }

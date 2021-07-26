@@ -1,0 +1,867 @@
+{
+  "BC" : {
+    "Day"     : "Day",
+    "Week"    : "Week",
+    "Month"   : "Month",
+    "Total"   : "Total",
+    "Daily"   : "Daily mission",
+    "Weekly"  : "Weekly mission",
+    "Bounty"  : "Bounty",
+    "Vindictor" : "Vindictor"
+  },
+  "Daily" : {
+    "Board"   : "Daily Mission",
+    "Mission": {
+      "1"     : "<b>Standard</b> <br>• Daily first Login <br>• Clear any battle 1/2/3/5 time(s) <br>• Clear any coop once <br>• Purchase any item in the shop <br><a style='color: red;'> • Exchange black cards for stamina once </a><br>• Consume 100 stamina <br>• Consume 200 stamina <br>• Consume 300 stamina <br>• Talk to your Character in the home page once <br>• Visit dorm once <br>• Clear Pain Cage 3 times <br>• Clear War Zone 3 times <br>",
+      "2"     : "<b>Dorm</b> <br>• Complete all dormitory tasks <br>• Place a unit on dorm duty <br>• Trigger and complete dormitory events 3 times <br>• Pet units 3 times <br>• Make furniture 3 times <br>"
+    }
+  },
+  "Weekly" : {
+    "Board"   : "Weekly Mission",
+    "Mission": {
+      "1"     : "<b>Warzone</b> <br>• Clear Warzone 1/2/3/4/5/6/7/8/9/10/11/12 time(s) <br>• Get 100,000/200,000 total points in Warzone <br>",
+      "2"     : "<b>Pain Cage</b> <br>• Clear Pain Cage 1/2/3/4/5/6/7/8/9/10 time(s) <br>• Get 200,000/400,000 total points in Pain Cage <br>"
+    }
+  },
+  "Consciousness" : {
+    "detail" : {
+      "6s" : "6*",
+      "5s" : "5*",
+      "c"  : "Compositer"
+    },
+    "6star" : {
+      "Adauf" : {
+        "2" : "Gain 20% more energy when consuming orbs. Ultimate takes 20% less energy to activate.",
+        "4" : "Increases all damage by 15% for 10s, decreases damage taken by 20%, and super armor after ultimate is over."
+      },
+      "Baron" : {
+        "2" : "3% increase to all attacks, 7% increase to dark damage.",
+        "4" : "When dealing damage, there is a 20% chance to summona phantom area for 5 seconds. Afterwards, the phantom area goes on a 5 seconds cooldown.Enemies standing within the phantom area areinflicted with corrosion for seconds. Enemiesafflicted with corrosion take 80% dark damageevery 2 seconds and have reduced dark resistance.When attacking enemies with corrosion thereis a 20% chance to gain 1 random orb. This effect has a <b>12 seconds CD</b>"
+      },
+      "Condelina" : {
+        "2" : "Increase basic attack's damage by 15%.",
+        "4" : "Basic attacks has a 25% chance to trigger Berserk Mode.During Berserk Mode, Increase basic attack damage by 15% and critical chance by 5%. Lasts for 5s, <b>CD: 8s</b>"
+      },
+      "Darwin" : {
+        "2" : "Increase all damage by 3% for every orb consumed, lasts for 4s, up to 5 stacks.",
+        "4" : "When consuming an orb, the orb's corresponding color is stored. When 3 colors are collected, release a 12m radius shockwave with the character as the center that deals 600% physical damage."
+      },
+      "Da_vinci" : {
+        "2" : "When QTE is triggered, the player-controlled character's will gain 10% attack and 20% defense for 8s.",
+        "4" : "When QTE is triggered through a 3 orb consumption, trigger another character's QTE, CD: 8s. When all characters are on the field at once, increase attack by 20%."
+      },
+      "Einstein" : {
+        "2" : "QTE/3 orb skills decreases target's element resistance by 15% for 8 seconds, (Meaning: if afire attack hits the target, it decreases fire resistance, if lightning, it decreaseslightning resistance. Physical does not work with this memory) <br><b>CD: 15s</b>",
+        "4" : "When damaged, open an elemental ring and increase your elemental resistance by 5% + 1% of your current element resistance for 5s. The ring grants an increase of element damage by 15%, <b>CD : 8s</b>"
+      },
+      "Frederick_II" : {
+        "2" : "Increase healing effectiveness by 10%. Heals increase the target's physical damage and defense by 10% for 5s, <b>CD: 8s</b>",
+        "4" : "Everytime you cast a healing skill, drone receives one charge. When the drone is fully charged, the next heal will summon a healing drone. The drone will automatically follow the character with the least amout of health on the field, healing 2% of the character's maximum health every second in a 5m radius. The area will also increase physical damage by 15% for 5s. One drone can be deployed every 12s"
+      },
+      "Flamel" : {
+        "2" : "5% dark damage and attack increase.",
+        "4" : "After entering Annihilation mode, increase dark damage and ultimate damage by 30%. Gain 10 energy after consuming an Annihilation Orb."
+      },
+      "Frederick" : {
+        "2" : "Dodging increases movement speed by 15% and all damage by 5%, up to 3 stacks.",
+        "4" : "Dodging decreases the attacker's speed by 20% and receives more damage by 15%, lasts for 4s, <b>CD: 8s</b>"
+      },
+      "Guinea" : {
+        "2" : "Increase healing effectiveness by 10%. Heals increases target's elemental damage and resistance by 10% for 5s.",
+        "4" : "Everytime you cast a heal skill, drone receives one charge. When the drone is fully charged, the next heal will summon an elemental drone. The drone will automatically follow the lowest health character on the field healing 2% of the character's maximum health every second in a 5m radius. The area will also increase elemental damage by 15% for 5s. One drone can be deployed every 12s."
+      },
+      "Hannah" : {
+        "2" : "3 orb skills deal 25% more damage.",
+        "4" : "Every 30s, the next 3 orb skill will trigger slowmo. Character will gain 1 random orb."
+      },
+      "Heisen" : {
+        "2" : "Increase all damage by 3% and lightning damage by 7%.",
+        "4" : "Each attack has a 25% chance of triggering a 3.5m radius lightning explosion. The explosion deals 100% damage and inflict Electrify for 5s to enemies caught in it, <b>CD: 5s.</b> Electrify decreases enemy's lightning resistance by 8%. Attacking Electrified enemies have a 20% chance of triggering Lightning Chain that causes 250% to all enemies inflicted with Electrify."
+      },
+      "Katherine" : {
+        "2" : "QTE/3 orb skills will decrease the target's physical defense by 20% for 7 seconds, <b>CD: 10s</b>.",
+        "4" : "When damaged, gain a shield equal to 20% of your defense, blocks the current attack, and gain a 15% increase to physical damage for 5s, <b>CD: 8s</b>."
+      },
+      "Leeuwenhoek" : {
+        "2" : "3% attack increase, 7% physical damage increase.",
+        "4" : "20% increase to the effect of Spear of Insight. Deal 5% more damage to target's that has been inflicted with Spear of Insight."
+      },
+      "Barton" : {
+        "2" : "Increase critical chance and physical damage by 5%.",
+        "4" : "For every non-critical attack dealt, the next physical attack's critical chance increases by 2%, stackable up to 20%. Critical chance is reset once a critical attack has landed. Physical damage is increased by 5% whenever you land a critical strike for 3s, stackable up to 3 times."
+      },
+      "Shakespeare" : {
+        "2" : "Increase all damage by 3% and fire damage by 7%.",
+        "4" : "Each attack has a 50% chance to inflict Burn to the enemy for 8s. Attacking Burned enemies has a 20% chance to trigger an explosion, dealing 100% fire damage. Burned enemies have -8% fire resistance and take 12% fire damage every second. Stackable up to 3 times. Burn duration resets after each stack."
+      },
+      "Zuwenyuan" : {
+        "2" : "ATK increased by 3%, Ice damage increased by 7%.",
+        "4" : "When attacking, there is a 30% chance of causing a Frost state for 5 seconds. When attacking a Frost target, there is a 20% chance of triggering an ice burst, causing 420% Ice and applying Frost effect to the target within a radius of 3 meters. Cooldown 8 seconds. Frost: Reduce the target's movement speed by 20% and reduce the resistance to Ice damage by 8%."
+      }
+    },
+    "5star": {
+      "F" : {
+        "2" : "Increase all damage by 2% for every orb consumed, lasts for 3s. 5 stacks max, with each stack resetting the buff's duration.",
+        "4" : "Every 60s, the next 3 orb skill will trigger slowmo."
+      },
+      "Ike" : {
+        "2" : "Increase all damage by 2% and elemental damage 4%.",
+        "4" : "There's a 15% chance to Burn, Shock, Freeze, and Corrode(depending on the element). Lasts for 5s with a cooldown of 8s on each enemy."
+      },
+      "Erwin" : {
+        "2" : "Increase basic attack's damage by 10%.",
+        "4" : "Increase basic attack's damage by 15%. Buff disappears when attacked, returns after 12s."
+      },
+      "Groda" : {
+        "2" : "Attacks decrease enemy's resistance by 6% for 5s, <b>CD: 12s</b>.",
+        "4" : "Enemies within 5m has 6% lower elemental resistance when you are attacked, lasts for 7s. Triggering again will reset the effect."
+      },
+      "Lantern_Reunion" : {
+        "2" : "After using a 3 orb combo or QTE, summon a lantern that follows all allies on the field for 15 seconds. The lantern buffs nearby allies, increasing their attack and movement speed by 7%. This effect has a 30 seconds cooldown."
+      },
+      "Liv-Reindeer" : {
+        "2" : "Increase orbs' damage and healing effectiveness by 5%.",
+        "4" : "There's a 20% chance of dropping a christmas present near an enemy when attacking. Picking up the box will recover 5 energy and increase all damage by 5%, <b>CD: 10s</b>."
+      },
+      "Mozart" : {
+        "2" : "Increase all damage by 15% when in slowmo.",
+        "4" : "Deal 200% damage to all enemies on screen when slowmo is triggered."
+      },
+      "New_Year_Fireworks" : {
+        "2" : "Attack increases by 5%. After consuming 3 red orbs, summon 4 red packets in a ring shape. The red packets will deal 10% fire damage when they come in contact with the enemy, lasts for 10 seconds, 30 seconds cooldown."
+      },
+      "Richelieu" : {
+        "2" : "Increase healing effectiveness by 5%. Heals increase target's physical damage by 8% for 4s, <b>CD: 5s</b>.",
+        "4" : "Gain a random orb for every 8 orbs consumed, <b>CD: 5s</b>."
+      },
+      "Samanda" : {
+        "2" : "Increase healing effectiveness by 5%. Heals increase target's elemental damage by 8% for 4s, <b>CD: 5s</b>.",
+        "4" : "Heals will leave an elemental ring. Increase elemental damage by 8% and elemental resistance by 5%, <b>CD: 10s</b>."
+      },
+      "Voltaire" : {
+        "2" : "Attacks decrease enemy's defense by 10% for 5s, <b>CD: 12s</b>.",
+        "4" : "Decrease target's physical defense by 15% when attacked, lasts for 7s. Stackable up to 2 times"
+      },
+      "KFC_Alpha" : {
+        "2" : "After triggering 3-orbs or QTE, there is a 50% chance of dropping a Family Bucket, 30s cooldown. The Family Bucket remains on field for 10s. Picking it up grants the character 12% movement speed for 15s, duration can be refreshed."
+      },
+      "KFC_Lucia" : {
+        "2" : "After triggering 3-orbs or QTE, there is a 50% chance of dropping a Chicken Burger, 30s cooldown. The Chicken Burger remains on field for 10s. Picking it up grants the character 8 energy."
+      },
+      "Lee_Moonlight" : {
+        "2" : "All resistance +10% for 3s when dodging.",
+        "4" : "Recover 10% of Max HP when entering Supercomputing Space, can only be triggered once every 30s."
+      }
+    },
+    "Compositer" : {
+      "Anjun" : {
+        "2" : "5% additional damage increase to normal attacks. 7% physical damage increase.",
+        "4" : "Blue orb's anti-CC buff lasts for an additional 2 seconds. Gain 15% physical damage when the buff is present.",
+        "6" : "Gain 24 energy when you enter Condensed Will state. Gain 3 color orbs, one of each after releasing ultimate."
+      },
+      "Koya" : {
+        "2" : "10% additional damage increase.",
+        "4" : "Gain 20% ultimate energy for every entrance to stage. Skill orbs deal 10% more damage.",
+        "6" : "When Camu is in Berserker mode, gain 10% additional damage and 20% movement speed. Skill orbs will now inflict Terror. The Terror effect lasts until Berserker mode is over. Terror: decrease target's attack by 10% and deal 10% additional damage to the target."
+      },
+      "Lucrezia" : {
+        "2" : "Lghtning damage +10%.",
+        "4" : "Gain 15% energy and Damage +10% for 5s when Chord is triggered.",
+        "6" : "Damage +20% towards targets affected by Concerto."
+      },
+      "Boudica" : {
+        "2" : "Basic attack dagmage +7%.",
+        "4" : "Damage +5%, movement speed +10% during Supercomputing Space.",
+        "6" : "Bonus 3% damage when dealing damage, can only trigger once every 2s, up to 5 stacks. Stacks reset when damage is taken."
+      }
+    }
+  },
+  "Weapon": {
+    "Control": {
+      "Bows"                    : "&nbsp; Bow",
+      "Chainsaws"               : "&nbsp; Chainsaw",
+      "Hovering_Cs"             : "&nbsp; Hovering Cannon",
+      "Greatswords"             : "&nbsp; Greatsword",
+      "Dual_Pistols"            : "&nbsp; Dual Pistol",
+      "Cannons"                 : "&nbsp; Cannon",
+      "Daggers"                 : "&nbsp; Dagger",
+      "Scythes"                 : "&nbsp; Scythe",
+      "Spears"                  : "&nbsp; Spear & Shield",
+      "Swords"                  : "&nbsp; Longsword",
+      "Gauntlets"               : "&nbsp; Gauntlet",
+      "Amplifier"               : "&nbsp; Amplifier",
+      "Rifle_set"               : "&nbsp; Rifle Set",
+      "Gunblade"                : "&nbsp; Gunblade",
+      "Collaborative_Bot"       : "&nbsp; Collaborative Bot",
+      "Banner_Spear"            : "&nbsp; Banner Spear",
+      "Compositer" : {
+        "Greatswords"           : "&nbsp; Greatsword",
+        "Dragon_Spears"         : "&nbsp; Dragon Spear",
+        "Cello_Blades"          : "&nbsp; Cello Blade"
+      },
+      "Collab" : {
+        "Nier_weapons"          : "&nbsp; NieR : Automata"
+      }
+    },
+    "Structure_Weapon" : {
+      "Bows" : {
+        "Lightning"               : "15% Lightning damage increase. Trigger a Lightning strike after dealing lightning damage using skills 5 times on a single target, dealing 150% Lightning damage, 2 seconds cooldown.",
+        "Ramiel"                  : "15% Increase to ultimate damage. Increase physical damage received by enemies by 2% everytime your ultimate hits them for 5 seconds, stacks up to 8 times.",
+        "Hayabusa_E-3320"         : "Critical chance and critical damage increases by 10% when there are no enemies within 2 meters."
+      },
+      "Chainsaws" : {
+        "Chimera-Gyakudan"        : "20% Chance to cause target to enter damaged status when attacking, dealing 2% of Physical damage every second for 3 seconds, stacks up to 10 times, chances are double on enemies with defense down. 10% Increase to Physical damage when attacking damaged enemies.",
+        "Hydroheat"               : "10% chance to decrease enemy's Fire resistance by 5% when attacking, 8 seconds cooldown for each enemy. Fire damage increased by 20% after ultimate and doubles the chance of decreasing enemy's Fire resistance.",
+        "Spark"                   : "30% Chance to cause defense break while attacking, decrease defense by 5% for 3 seconds, Stacks up to 5 times."
+      },
+      "Hovering_Cannons" : {
+        "Tenryu_no_Kaze"          : "Basic attacks have a 10% chance to weaken enemies, decreasing their damage by 10% for 5 Seconds. 10% Chance to recover an orb when attacking weakened enemies, Cooldown for 6 Seconds.",
+        "Benefis"                 : "10% Damage increase to allies within 5 meters of range for every 12 orbs you consume. Deal 10% more damage to rooted enemies.",
+        "Type_Zero"               : "Damage of Eclipse's red orb is increased by 50%. Increase damage by 15% after using a 3 orb skill for 5 seconds.",
+        "Guard_Mount"             : "Obtain a random orb for increasing your combo by 30, Cooldown for 8 seconds."
+      },
+      "Greatswords" : {
+        "Big_Kamui"               : "Increase Physical damage by 15%. Next skill damage is increased by 30% when you successfully counter an enemy.",
+        "Pitch_Black"             : "20% increase to physical damage and dark damage by 20% after consuming 3 orbs, lasts for 5 seonds.",
+        "Star_Of_Bethlehem"       : "Create a Christmas halo when you do a 3 orb combo. Attack and movement speed is increased by 8% within the halo. The halo lasts for 15 seconds, Cooldown for 30 seconds.",
+        "Drive-wheel_Claymore"    : "Attacks have a 10% chance to release a Shockwave, dealing 100% Physical damage to enemies within range."
+      },
+      "Dual_Pistols" : {
+        "Sin"                     : "All damage increases by 3% for every energy orb you pick up, Stacks up to 5 times. After picking up 5 orbs, Gain 1 extra skill orb and 10 energy. Cooldown for 10 Seconds.",
+        "Wolfgun"                 : "All damage increase by 20% when attacking enemies within the burning area.",
+        "Scale_Zero"              : "Matrix's core passive deals 10% more damage. Increase Physical damage by 15% after a 3 orb skill for 5 seconds.",
+        "Gloomlight"              : "After consecutive Red, Blue, and Yellow orb consumption for 5 seconds, Increase all damage by 15% for 5 seconds."
+      },
+      "Cannons" : {
+        "Fusion_Cannon"           : "Increase Physical damage by 10%. After consuming 3 orbs at once, basic attacks damage is increased by 30%.",
+        "Nuclear_Dragon"          : "Increase Fire damage by 10%. When consuming a red orb, Fire damage increases by 10% for 5 seconds.",
+        "Lava_Pillar"             : "Damage is increased by 12% after consuming 3 orbs at once for 4 seconds.",
+        "New_Years_Firecracker"   : "Create explosions at target's location when dealing damage in Canon mode or Fire mode, dealing a total of 250% of physical damage, 10 seconds cooldown."
+      },
+      "Daggers" : {
+        "Soulcutter"              : "When you deal a critical from behind, the target will be damaged, receiving 50% physical damage every second for 3 seconds. When attacking damaged enemies, physical damage increases by 20%.",
+        "Requiescat"              : "All damage is increased by 10%. When in Resonance form, increase Dark damage by 10%.",
+        "Stoneheart"              : "After consecutive 3 orb combo, 15% increase to all damage for 5 seconds.",
+        "Lantern_Festival"        : "When dealing damage to an enemy, 20% chance to drop a lantern that deals 15% Physical damage. 1 second cooldown."
+      },
+      "Scythes" : {
+        "Saint_Elmo"              : "10% more Lightning damage. When in Flash mode, decrease the amount of normal attacks required to trigger core passive by 2.",
+        "Violet_Wu"               : "When dealing damage to shielded enemies, increase all damage by 2%, stacks 3 times and lasts for 5 seconds. When you break an enemy's shield, stun the target for 2 seconds. This effect has a 10 seconds cooldown on each affected enemy. After releasing Colorflow's core passive, Increase all physical damage done by 15%. Lasts for 7 seconds.",
+        "Fade"                    : "All damage increases by 10% for 4 seconds after releasing QTE or 3 orbs."
+      },
+      "Spears_and_Shield" : {
+        "Gungnir"                 : "When dealing damage, decrease target's physical defense by 20%, lasts for 8 seconds, triggering the effect again will refresh the duration. When dealing damage with a small/medium/wide type railgun shot, target receives 25/50/100% physical damage based on your attack damage for 8s.",
+        "Blackthorn"              : "Damage +10% for 3s after performing Small/Medium/Wide-ranged railgun attack. Triggering the effect again refreshes the duration."
+      },
+      "Longswords" : {
+        "Julia"                   : "Increase 15% Ice Damage. Increase 10% all damage after a 3 orb combo, last for 5 seconds.",
+        "Kageuchi-Gyakudan"       : "Every time Lightning damage is dealt, increase Lightning damage by 5%, last for 4 seconds, tacks up to 4 times, triggering it again will refresh the duration. Gain 10% extra damage after releasing ultimate, last for 10 seconds, triggering it again will refresh the duration.",
+        "Red_Lotus_Berserker"     : "10% Damage increase to normal attacks. Every normal attack increases physical damage by 5% for 2 seconds, stack up to 5 times.",
+        "Red_Cherry_Blossom"      : "Gain 20% more energy when consuming orbs. Ultimate takes 20% less energy to activate.",
+        "Sariel"                  : "Dark damage increased by 15%. When attacking, there is a 15% chance of releasing a shadow impact, causing 75% ATK of Dark damage, and and enter cooldown for 0.5s.",
+        "Sirius"                  : "Increase all damage by 5%. When using skill orbs, accumulate energy based on the number of skill orbs usage. At 50 energy, summon Sirius for 45 seconds. Cooldown for 60 seconds.",
+        "Kuji_no_sada"            : "Attacks have a 20% chance of causing Lightning Strike, dealing 50% ATK of Physical damage. Cooldown for 3 seconds."
+      },
+      "Gauntlets" : {
+        "Baji"                    : "Ice damage +15% Triggering Circulating Tide or QTE wil leave behind 8s of Ice Mirror.",
+        "Emerging_Unicorn"        : "Damage +8% for 4s after dodging."
+      },
+      "Amplifiers" : {
+        "Ozma"                    : "Dark damage +15%. The 4th spike from Annihilation Orb creates a 100% Dark damage AOE.",
+        "Crown_Lure"              : "All damage +15% for 8s after expending all 3 different colors of orbs within 6s."
+      },
+      "Rifle_Sets" : {
+        "Auncel"                  : "Ice damage +15%. Gain Condensed Frost (Ice damage +10%) for 8s after successfully dodging with Bloom Shot.",
+        "FA2D-AP"                 : "Ice damage +10%."
+      },
+      "Gunblades" : {
+        "Apollo"                  : "Ice damage +15%. QTE and 3-orbs will trigger Etching Frost. (Ice Resist down)",
+        "Kara"                    : "Consuming 3 orbs, increase damage by 5% for 5s."
+      },
+      "Collaborative_Bot" : {
+        "Snore"                   : "Collab Bot unleashes a Positional Wave whenever No.21 performs a Shadow Prism attack, QTE or breaking out of incoming attacks. The effect can only be triggered once every 1 second. Positional Wave deals 50% Dark damage to all enemies struck. (Damage scales with the Core Passive Level) <br><br> Friendly targets in the Positional Wave gain 3s of Energy Suppression. Energy Suppression: When dealing Dark damage, enemies have healing effectiveness -100% for 2s. <br><br> The Collab Bot activates Fortress Mode whenever the Positional Wave detonates 4 Twilight Matrices at the same time or when No.21 enters Supercomputing Space, unleashing a high energy pulse, dealing 400% of No.21's Attack as Dark damage. The effect can only be triggered once every 12s. (Damage scales with the Core Passive level). <br><br> Damage+15% for Shadow Prism attacks, Twilight Matrices and Resonance Pulses.",
+        "Animus"                  : "Experimental Core: When No.21-XXI releases Shadow Prism attack or release the attacked state, the collaborative bot will release a force field wave to assist No.21-XXI, the force field wave deals 50% dark damage to enemies in range, the effect can only be triggered once in 1 second. <br><br> Reverse Element Resonance Unit: Increase the damage of No.21-XXI Twilight Matrices and Resonance Pulse by 10%."
+      },
+      "Banner_Spear" : {
+        "Phoenix"                 : "Lightning damage +15%. QTE and Ultimate will also grant Electric Charge. When the QTE battle standard is on field, switching in Vera will consume all Electric Charge to perform a Thunderfall, and gain 1 Electric Charge after.",
+        "Scarlet-knight"          : "Thunder damage increased by 10%."
+      }
+    },
+    "Compositer_Weapon" : {
+      "Greatswords" : {
+        "Thanatos"                : "Increases All damage by 15%. When Camu - Berserker is in the state of madness, Thanatos continues to increase the Dark damage by 10%.",
+        "Glimpse"                 : "After 3 orbs, all damage is increased by 12% for 4 seconds."
+      },
+      "Dragon_Spears" : {
+        "Qinghe"                  : "Physical damage +20%. Huiyu's attack frequency +50% and gains a new skill: Curse. Huiyu transforms into an amulet and attaches itself to the target, dealing up to 210% Physical damage. After a short delay, deal 240% Physical damage again. Damage scales with Qu's Ultimate level.",
+        "Guiyun"                  : "Physical damage +10% for 5s after expending blue orbs. Triggering the effect again refreshes the duration."
+      },
+      "Cello_Blades" : {
+        "Mistress_of_the_Woods"   : "Lightning damage +20%. Red and Blue orbs can be weaved into other skills but can not be cast in succession. When exiting ultimate, orbs are refunded based on the number of orbs in possession before entering ultimate, Triple orbs are prioritized.",
+        "Odette"                  : "Attack +3% for 5s, up to 5 stacks durings 3-orbs. Triggering the effect again refreshes the duration."
+      }
+    },
+    "Collaboration_Weapon" : {
+      "NieR_Automata"             : {
+        "Virtuous_Contract_Kai"   : "Physical damage +15%. Leader effect doubled. Gain 160 Stance Stability points when swapping into battle and enter Combat Stance with 2 stacks of Data Correction.",
+        "Type-40_Lance_Kai"       : "Leader effect doubled. A2 can enter Berserk Mode with 40% POD: Shield gauge, as well as gaining 10% Attack increase. Press and hold the Basic attack button within 2s from dodging to unleash an empowered attack, dealing 370% Physical damage. Press the button again to unleash a follow-up attack, dealing 720% Physical damage. (Damage is scaled with Basic attack skill level). All Yellow orbs will be consumed to charge the lance, with each Yellow orb dealing 100% Physical damage (Up to 300%), and granting 3% POD: Shield. Consuming any amount of Yellow orb for the charge grants Physical damage +10% for 15s.",
+        "Cruel_Oath_Kai"          : "Physical damage and Healing +15%. Leader effect doubled. When Overclock Indicator is successfully triggered, 2B and A2's swap cooldown is reduced by 1s and also gain 1 signal orb.",
+        "Virtuous_Contract"       : "Physical damage +10% during Combat Stance.",
+        "Type-40_Lance"           : "Physical damage +10% when POD: Shield is present. Gain 5% POD: Shield when sliding for 1s.",
+        "Cruel_Oath"              : "Overclock Indicator damage +10%."
+      }
+    }
+  },
+  "Characters" : {
+    "ETC"     : {
+      "OrbSkill"            : "Orb Skills",
+      "ActiveSkill"         : "Active Abilities",
+      "PassiveSkill"        : "Passive Abilities",
+      "Awakening"           : "When entering the battle, get 3 signal balls (only once per battle)."
+    },
+    "S_Ranks" : {
+      "Lee-Random" : {
+        "Core"                : "After a 3 orb combo, the next red orb skill will have additional cannon shots, dealing 27.5(55)% physical damage.",
+        "RedOrb"              : "Leaps forward and fires consecutive shots, each shot dealing 11.25/22.5/33.75(22.5/45/67.5)% of physical damage. Immune to crowd-control and stagger during the skill animation.",
+        "BlueOrb"             : "Fires a shock bomb, dealing 50/100/150(100/200/300)% physical damage and creates an energy circle. Enemies caught within the energy circle take 12/24/36(24/48/72)% physical damage for 3s. This skill has limited range and will detonate if the target is out of range.",
+        "YellowOrb"           : "Leaps forward to kick the enemy before following up with a shot, dealing 90/180/270(180/360/540)% physical damage and marking them. When attacking a marked enemy, an additional shot is fired, dealing 10/20/30(20/40/60)% physical damage.",
+        "Attack"              : "Deals a total of 385(770)% physical damage.",
+        "QTE"                 : "Deals 300(600)% physical damage.",
+        "Ultimate"            : "Consume 100 energy to call in an energy cannon. Each shot fired by this cannon deals 200(400)% physical damage.",
+        "Leader"              : "15% physical damage and 10% movement speed increase to all teammates.",
+        "Class-passive"       : "Increase damage done by 10 (20)%.",
+        "SSRank"              : "Deal 15% more damage when attacking enemies within the energy circle.",
+        "SSSRank"             : "Deal 20% more damage to marked enemies.",
+        "SSS+Rank"            : "Physical damage is increased by 10% after a 3 orb combo. This buff lasts for 5 seconds and stacks up to 3 times."
+      },
+      "Liv-Ray" : {
+        "Core"                : "Triggering 3 orbs will heal Liv and her nearby teammates by 30% (60%) of her attack power. Each 3 orb trigger will trigger a light charge, dealing 75% (150%) physical damage. Attacking marked enemies (blue orb) have a 20% chance of triggering a light charge.",
+        "RedOrb"              : "Fire her cannons at the target. After hitting, it will cause 100%/200%/300% (200%/400%/600%) physical damage and reduce the enemy unit’s movement speed by 20% for 3 seconds according to the number of orbs used. The target’s additional damage bonus will be reduced by 5% if 3 orbs were used. (Not usre) Lasts 5 seconds.",
+        "BlueOrb"             : "Release a particle field towards the target, marking all enemies within. Enemies take 50%/100%/150% (100%/200%/300%) damage, and will be pulled towards the center. Field lasts for 3/6/9 seconds.",
+        "YellowOrb"           : "Weapon enhancement. Increases the number of shots Liv does by up to 16/20/32. Additional shots deal 15%/20%/25% (30%/40%/50%) physical damage. Enhancement lasts 2.5/3.5/5 seconds.",
+        "Attack"              : "Liv fires her cannons at the target, dealing up to 520% physical damage.",
+        "QTE"                 : "Liv enters the field, healing nearby teammates by 50% (100%) of her attack, and giving them a shield for 2 seconds. Shield HP: 50% (100%) of Liv's attack.",
+        "Ultimate"            : "Create a large particle field. Enemies in the field will get hit by light charges, dealing 75% (150%) physical damage. Teammates in the field gain 75% damage reduction.",
+        "Leader"              : "Increases HP of all teammates by 15%",
+        "Class-passive"       : "Increase healing effectiveness by 10(20)%",
+        "SSRank"              : "Enemies marked by her blue field take 15% more damage.",
+        "SSSRank"             : "Light charge damage increased by 50%.",
+        "SSS+Rank"            : "After using ultimate, team damage increased by 15% for 6 seconds."
+      },
+      "Kamui-Dark" : {
+        "Core"                : "Consuming 3 orbs gains an additional 10 energy. Receive 15(30)% less physical damage and dark damage when in Dark mode.",
+        "RedOrb"              : "Normal Mode: Cross slash the target, dealing 100/200/300(200/400/600)% of physical damage and an additional 20/40/60(40/80/120)% of dark damage. <br><br> Dark Mode: Leap forward to an enemy, dealing 400/800/1200(800/1600/2400)% of dark damage",
+        "BlueOrb"             : "Normal Mode: Spin your sword and deal 70/140/210(140/280/420)% physical damage and an additional 20/40/60(40/80/120)% of dark damage.The spin will also draw enemies towards you. <br><br> Dark Mode: Crush the ground and release energy in a fan shape, dealing 240/480/720(480/960/1440)% of dark damage and stunning the target",
+        "YellowOrb"           : "Normal Mode: Rush towards an enemy, dealing 75/150/225(150/300/450)% of physical damage and an additional 20/40/60(40/80/120)% dark damage. During the rush, you take 30% less damage and is immune to crowd control. <br><br> Dark Mode: Rush and swing your sword around, dealing 300/600/900(600/1200/1800)% of dark damage. During the rush, you take 30% less damage and is immune to crowd control",
+        "Attack"              : "Normal Mode: Swing your sword, dealing a total of 280(560)% physical damage. <br><br> Dark Mode: Madly swing your sword, dealing a total of 450(900)% dark damage.",
+        "QTE"                 : "Does an upper spin attack, dealing a total of 210(420)% physical damage, the last hit will deal 80(160)% of dark damage and decrease the target's dark resistance by 5(10)% for 6 seconds.",
+        "Ultimate"            : "Dark mode can be activated when energy is above 60, all skill will be changed and Kamui gains Anti-CC. 8 energy is depleted per second in Dark mode, exit Dark mode when energy is depleted. Dark damage is increased by 10(20)% when in Dark mode",
+        "Leader"              : "Increase elemental damage by 10% and physical damage by 5% when all 3 members in team are different classes.",
+        "Class-passive"       : "Enemies take 10(20)% more damage when attacked by you, lasts for 5 seconds.",
+        "SSRank"              : "Take 20% less damage when in Dark mode.",
+        "SSSRank"             : "3 orb skills deal 30% more damage.",
+        "SSS+Rank"            : "Increase dark damage by 20% when in Dark mode."
+      },
+      "Karenina-Blaze" : {
+        "Core"                : "3 orb combos and ultimate will gain fire energy, when the fire bar reaches 50% full, you will enter fire mode. Basic attacks and skills get additional effects in fire mode and gains 10(20)% of fire damage increase. Loses 5% of fire energy per second in fire mode.",
+        "RedOrb"              : "Normal Mode: Cross attack an enemy, dealing 50/100/150(100/200/300)% of physical damage. <br><br> Fire Mode: Deals 75/150/225(150/300/450)% of fire damage.",
+        "BlueOrb"             : "Normal Mode: Summons machines that deal 10/20/30(20/40/60)% of physical damage. <br><br> Fire Mode: Deals 15/30/45(30/60/90)% of fire damage.",
+        "YellowOrb"           : "Normal Mode: Jumps towards an enemy, dealing 90/180/270(180/360/540)% of physical damage to enemies around. <br><br> Fire Mode: Deals 135/270/405(270/540/810)% of fire damage.",
+        "Attack"              : "Deals a total of 360(720)% physical damage. Fire mode converts damage to fire damage.",
+        "QTE"                 : "Deals 300(600)% physical damage.",
+        "Ultimate"            : "Fires a beam of laser on the ground that deals 100(200)% fire damage, leaving a trail of fire that deals 100(200)% of fire damage per second. Fills the fire bar fully.",
+        "Leader"              : "When all 3 characters are different classes, damage increase by 10%, attack based characters gain an additional 5%.",
+        "Class-passive"       : "Damage is increased by 10(20)%.",
+        "SSRank"              : "Gain an additional 10% in fire damage in fire mode.",
+        "SSSRank"             : "Skills gain 10% increase in damage when in fire mode.",
+        "SSS+Rank"            : "Enemies damaged by ultimate receives 15% more fire damage, lasts for 5 seconds."
+      },
+      "Nanami-Pulse" : {
+        "Core"                : "After using her ultiamte, Nanami enters Overclock status which converts all her normal attacks into fire damage. All enemies hit by her basic attack during this time gets their fire resistance lowered by 7.5(15)% for 8 seconds.",
+        "RedOrb"              : "Moves forward and thrusts the enemy with her chainsaw, deal 10/20/30(20/40/60)% physical damage, can be dealt up to 12 times. If it's a 3-orb, the damage will become fire damage instead.",
+        "BlueOrb"             : "Spins around and wind up, then hits the target with a heavy uppecut, deal damage 3 times, each time dealing 25/50/100(50/100/200)% physical damage. Also gains a shield based off Nanami's 5%/7.5%/10% max HP and super armor status, lasts for 5 seconds.",
+        "YellowOrb"           : "Leaps into the air and do a somersault with her chainsaw, deal damage twice, each hit is 50/100/100(100/200/200)% physical damage, each hit will be 100(200)% fire damage when is a 3 orb combo and create a Fire Energy Halo, dealing 15(30)% fire damage. The halo can hit up to 12 times.",
+        "Attack"              : "Slashes enemies with her chainsaw, dealing of up to a total of 310(620)% physical damage.",
+        "QTE"                 : "Nanami appears and spins around, dealing 240(480)% of fire damage to all surrounding enemies and also lowering their fire resistance by 5(10)% for 6 seconds.",
+        "Ultimate"            : "Nanami dashes across a distance, all enemies caught within the dash take 450(900)% of fire damage.",
+        "Leader"              : "Entire team's defense is increased by 15%, fire resistance is increased by 10% too.",
+        "Class-passive"       : "Enemies take 10(20)% more damage when attacked by you, lasts for 5 seconds",
+        "SSRank"              : "When attacking with basic attacks while in Overclock status, there's a 30% of chance to detonate enemies, dealing an additional of 25% fire damage.",
+        "SSSRank"             : "After using your ultimate, gain super armor status. All damage received are decreased by 20%, increase all fire damage dealt to enemies by 15%, lasts for 8 seconds.",
+        "SSS+Rank"            : "After using your ultimate, increase all damage dealt by 15%, lasts for 8 seconds."
+      },
+      "Alpha-Crimson-Abyss" : {
+        "Core"                : "After a 3-orb consumption of Blue orbs, consume again any color of 3-orbs to enter Sword Wave mode, all orbs will be converted into Sword Wave orbs and gain an additional of 2 Sword Wave orbs. Unleash Sword Waves to damage the enemy, dealing 170(340)% of physical damage and gains super armor during casting. ",
+        "RedOrb"              : "Flash attacks surrounding enemies, dealing 12.5/25/37.5(25/50/75)% of physical damage. 3-orbs consumption will deal an additional 37.5/75/112.5(75/150/225)% physical damage upon final strike and send the target flying, gains super armor during casting.",
+        "BlueOrb"             : "Enhance energy regeneration, movement speed by 20%/30%/50%, and also deal an additional of 2/4/6(4/8/12)% physical damage 2 times per attack. When entering Sword Wave mode and releasing Sword Waves, convert the additional damage into additional sword waves, with each dealing 4/8/12(8/16/24)% physical damage.",
+        "YellowOrb"           : "Dashes and slashes through enemies, damaging them along the way, dealing 100/200/300(200/400/600)% of physical damage.",
+        "Attack"              : "Lucia attacks with a 5-hit sword style, with each sequence dealing 40(80)%/50(100)%/60(120)%/90(180)%/100(200)% of physical damage, enter 3rd sequence immediately after dodging.",
+        "QTE"                 : "Continuously uppercuts the enemy, dealing a total of 300(600)% of physical damage, keeping the enemy airborne throughout the attacking duration.",
+        "Ultimate"            : "Assaults the enemy with a flurry of slashes, dealing up to a total of 1300(2600)% physical damage.",
+        "Leader"              : "All Assault type teammates gain an additional increase of 10% attack damage and 5% critical chance.",
+        "Class-passive"       : "Damage is increased by 10(20)%.",
+        "SSRank"              : "After a 3-orb consumption of Red Orbs, increase physical damage by 10%, lasts for 4 seconds.",
+        "SSSRank"             : "After exiting Sword Wave mode, gain 2 random orbs.",
+        "SSS+Rank"            : "During the effects of Blue orb consumption, increases physical damage by 15%."
+      },
+      "Bianca-Verity" : {
+        "Core"                : "After a 3 red orb combo, consuming blue orbs will enter sniper mode. Basic attacks will fire off a long range penetrating lightning arrow, dealing 250(500)% lightning damage, last for 6 seconds or after successfully shooting 6 arrows, exit sniper mode. When dodging during sniper mode, the next basic attack will have a faster charge rate. Orbs won't be recovered using basic attack in sniper mode.",
+        "RedOrb"              : "Fire an energy arrow that penetrates through enemies after charging, dealing 120/240/360(240/480/720)% physical damage. Deals lightning damage when is a 3 orb combo.",
+        "BlueOrb"             : "Snap your fingers and explode the arrow's energy, pushing back enemies around you, dealing 20/40/60(40/80/120)% physical damage. Gain l lightning charge. Normal attacks will have l extra lightning arrow, deals 8/16/24(16/32/48)% lightning damage. Red orbs and core passive will trigger 2 additional lightning arrow, deals 12/24/36(24/48/72)% lightning damage, last for 8 seconds",
+        "YellowOrb"           : "Flash towards the sky, shooting out a charged arrow, dealing 50/100/150(100/200/300)% physical damage after 2 exploding, leaving a lightning area. Enemies within the area will be slowed by A% and receive 20/35/50% lightning damage per second. The field last 3/5/7 seconds",
+        "Attack"              : "Shoots out 7 arrows. The last arrow will be a charged penetration arrow. Deal 280(560)% physical damage in total.",
+        "QTE"                 : "Shoots out 4 arrows, each dealing 80(160)% lightning damage.",
+        "Ultimate"            : "Consume 100 energy. Fire off a barrage of arrows towards the sky, trigger a chain lightning strike, each strike deals 80(160)% lightning damage within their area. After a delay, the strikes will explode, dealing 90(180)% lightning damage.",
+        "Leader"              : "Lightning damage increase to all members. Attack types gain an additional 5% attack.",
+        "Class-passive"       : "Increase damage done by 10 (20)%",
+        "SSRank"              : "Deal 10% more damage to enemies who got penetrated by the arrow from red orb skill, last for 8 seconds",
+        "SSSRank"             : "Deal 15% more damage to enemies within the lightning area from yellow orb skill.",
+        "SSS+Rank"            : "20% Lightning damage increase when in sniper mode."
+      },
+      "Lucia-Raven-Feather" : {
+        "Core"                : "Core Passive: In normal mode, every 3 orb increases your energy bar by 50% and add 1 stack to ultimate, up to 2 stacks.",
+        "Core2"               : "Ice Mode: The energy bar will drain as time goes on. Increase ice damage by 25(50)% when the bar is present. Every 3 orb will add 1 stack to ultimate, up to 4 stacks. If the bar is present during ultimate, the ultimate will be buffed by the bar.",
+        "RedOrb"              : "Stand still and slash 4/4/8 times, each slash dealing 30/60/60(60/120/120)% physical damage. ",
+        "RedOrb2"             : "Ice Mode: Create a moving tornado infront of yourself. The tornado deals 15/30/45(30/60/90)% ice damage 9 times while moving. The tornado deals 65/130/195(130/260/390)% ice damage when it reaches its maximum range.",
+        "BlueOrb"             : "Spin in midair for several turns and follow up with a downward-cut. When spinning, each slash deals 15/30/45(30/60/90)% physical damage. The downward-cut deals 35/70/105(70/140/210)% physical damage. ",
+        "BlueOrb2"            : "Ice Mode: Release a tornado that cuts the target 5 times. Each cut deals 20/40/60(40/80/120)% ice damage. Deal another 40/80/120(80/160/240)% ice damage and pull the target towards you when pulling back the sword.",
+        "YellowOrb"           : "Quickly dash towards the enemies and slash them twice. Each slash deals 57.5/115/172.5(115/230/345)% physical damage. ",
+        "YellowOrb2"          : "Ice Mode: Jump and slam down towards the target, dealing damage twice. Each damage is 75/150/225(150/300/450)% ice damage.",
+        "Attack"              : "Deal a total of 320(640)% physical damage.",
+        "Attack2"             : "Ice Mode: Switch to dual swords, deal a total of 135(270)% physical damage and 205(410)% ice damage.",
+        "QTE"                 : "Deal a total of 160(320)% physical damage and 160(320)% ice damage",
+        "Ultimate"            : "Switch to Ice Mode. During the switch, you are immune to CC. If your energy is full when you switch, the orbs will be rearranged in 3 orbs format.",
+        "Ultimate2"           : "Ice Mode: Jump up and toss down your booster towards the ground, dealing 450/600/800/1520(900/1200/1600/3040)% ice damage, temporarily slowing the target and return to normal mode. Mode Switch: Can be used anytime during normal mode. Can be used in Ice mode when ultimate has 1 or more charge, after switching there will be a 5 second cooldown.",
+        "Leader"              : "10% ice damage increase. All assault type structure gain 5% more attack.",
+        "Class-passive"       : "Damage is increased by 10(20)%",
+        "SSRank"              : "Target takes 10% more damage after it's hit by blue orb. This buff only applies to you.",
+        "SSSRank"             : "Gain max energy bar and 2 ultimate stacks at the start of the battle. If the energy bar is present when in ice mode, all skill orbs deal 5% more damage.",
+        "SSS+Rank"            : "20% increase to ice damage during core passive."
+      },
+      "Rosetta-Arctic" : {
+        "Core"                : "Rosetta has 3 energy points, any 3 orb combo will consume one of them and increase its damage by 100%. Consume maximum 2 energy points when releasing ultimate, gaining 40%/80% damage increase. When all energy points is consumed, Rosetta enter full charge status. Holding your attack button will charge your railgun, at max it will release a wide area railgun, dealing 1600% physical damage, recover 8 points of energy (for ultimate) and inflict Spear of Insight, last for 20 seconds. Damage resistance is increased to 90% when charging in full charge status. After 8 seconds of releasing a wide area railgun, recover 3 energy points. ",
+        "RedOrb"              : "Slash out 3 forward moving sword waves, dealing 228.53%/457.06%/685.58% physical damage",
+        "BlueOrb"             : "Toss your shield out to deal damage before withdrawing. The shield will also pull any enemies within its path towards you. Deal 220%/440%/660% physical damage and inflict Spear of Insight on target, last for 8 seconds. Spear of Insight: 20% physical defense decrease",
+        "YellowOrb"           : "Raise your shield and dash towards the enemy before attacking with your spear, dealing 226.47%/452.97%/679.41% physical damage twice: Gain shield based on 3.09%/6.18%/10.29% of your maximum health, last for 5 seconds. Immune to CC when casting",
+        "Attack"              : "Deal a total of 997.94% physical damage. Holding the attack button will charge your spear, depending on the period of charging, release a small/medium railgun, dealing 205.88%/380.88% physical damage. Take 30% less additional damage when charging.",
+        "QTE"                 : "Deal a total of 741.18% physical damage.",
+        "Ultimate"            : "Consume 80 energy. Fly towards the sky and release your Ion cannon onto ground. Enemies nearby will be attracted towards the zone when charging. Once the cannon is fully charged, an explosion will be created, dealing 2480% physical damage.",
+        "Leader"              : "15% defense increase to all teammates, 5% damage increase for tanks",
+        "Class-passive"       : "Decrease 20.59% targets additional damage resistance when attacking last for 5 seconds.",
+        "SSRank"              : "QTE can trigger Spear of Insight, last for 8 seconds. After red orb has successfully hit a target, Blizzard deals 10% more additional damage to the target in the next 8 seconds.",
+        "SSSRank"             : "Spear of Insight decreases an additional 20% of physical defense",
+        "SSS+Rank"            : "20% damage increase to 3 orbs and ultimate"
+      },
+      "Luna-Laurel" : {
+        "Core"                : "Gain 15 Annihilation points during 3-orbs, up to 60 points. The next orb triggered will be considered a 3-orb combo. The 3-orb combo perk from other effects such as Supercomputing Space will be prioritized first. Press and hold the Basic attack button when there are at least 15 Annihilation points to enter Annhilation Mode, dealing 200% Dark damage to surrounding targets. All current signal orbs will be hidden and replaced by up to 4 Annhilation Orbs. Triggering the mode will grant Super Armor during the move and activate all available QTE. Unleash 4 spikes when an Annihilation Orb is expended, dealing 400% Dark damage and awarding 10 energy. Gain an additional Annihilation Orb when entering Supercomputing Space during Annihilation Mode. Basic attacks consume 5 Annihilation point. Annihilation Mode ends when there are no Annihilation points left or when the character is switched out. Switching drains all Annihilation points.",
+        "RedOrb"              : "Unleash the spheres ahead, attacking in a randomized pattern dealing 240%/480%/720% Physical damage. Damage is converted to Dark element when it is a 3-orb. Gain Super Armor during the move.",
+        "BlueOrb"             : "Unleash a virus network field for 3s, dealing 200%/400%/600% Physical damage. Damage is converted to Dark element when it is a 3-orb. The field will automatically follow the nearest target, otherwise it accompanies the user instead. Character is able to move while triggering the skill.",
+        "YellowOrb"           : "Continuously channel the flow of energy, generate up to 4 spikes at target's location, dealing 220%/440%/660% Physical damage. Damage is converted to Dark element when it is a 3-orb. Gain Super Armor during the move.",
+        "Attack"              : "Unleash a flurry of attacks with the spheres and spikes, dealing a total of 470% Physical damage. Attack with a longsword and spear instead during Annihilation Mode, dealing a total of 950% Dark damage. Attacking after dodging deals 300% Dark damage. Signal orbs are not be generated during Annihilation Mode.",
+        "QTE"                 : "Appear in the air and attack the area ahead with a spear, dealing 640% Dark damage.",
+        "Ultimate"            : "Expend 150 energy. Continuously alter the gravity in a large area ahead, dealing 2800% Dark damage to all targets within.",
+        "Leader"              : "All team members' Dark damage +10%, Assault structures' attack +5%.",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Spike damage +5%. Drop 2 additional spikes.",
+        "SSSRank"             : "Dark damage +5% during Annihilation Mode. Damage bonus persists for 4s after exiting Annihilation Mode. Trigger Supercomputing Space when entering Annihilation Mode with a full gauge, 12s cooldown.",
+        "SSS+Rank"            : "Ultimate gains a damage bonus of 15%/30%/45%/60%/75% corresponding to the number of Annihilation Orbs expended."
+      },
+      "Chrome-Glory" : {
+        "Core"                : "During battle, Chrome's HP is reduced to 40%. The remaining 60% HP is converted to Shield of Glory that automatically regenerates over time. When the energy tank (horizontal gauge) is full, press and hold the Basic Attack button to enter Frigid Soul mode, draining Shield of Glory completely. Triple-orbs grant Frosted Body during this period and will not expend Shield of Glory. However, Shield of Glory does not regenerate during Frigid Soul as well. A ring of Frigid Erosion is generated around Chrome, applying Etching Frost to all enemies within and dealing 150% Ice damage every 0.5s.<br><br> Etching Frost: Reduce Ice resistance by 15% for 8s. Triggering the effect again refreshes the duration.",
+        "RedOrb"              : "Draw the blade and leap towards the enemy, striking them and dealing 190%/380%/570% Physical damage. When Shield of Glory is more than 50%, performing a triple-orb will consume 50% of it and deal 820% Ice damage instead and also grant Frosted Body for a fixed duration during the attack. Incoming attacks are negated and enemies are slowed when struck while Frosted Body is active and also recover 50% Shield of Glory.",
+        "BlueOrb"             : "Boost forward with the thrusters and strike with the charged weapon, dealing 170%/340%/510% Physical damage. When Shield of Glory is more than 50%, performing a triple-orb will consume 50% of it and deal 740% Ice damage instead and also grant Frosted Body for a fixed duration during the attack. Incoming attacks are negated and enemies are slowed when struck while Frosted Body is active and also recover 50% Shield of Glory.",
+        "YellowOrb"           : "Spin with the blade, pulling enemies in with frigid air, followed by a ferocious slam, dealing 170%/340%/510% Physical Damage. When Shield of Glory is more than 50%, performing a triple-orb will consume 50% of it and deal 780% Ice damage instead and also grant Frosted Body for a fixed duration during the attack. Incoming attacks are negated and enemies are slowed when struck while Frosted Body is active and also recover 50% Shield of Glory.",
+        "Attack"              : "Attack continuously with the gunblade, dealing a total of 750% Physical damage. While Frigid Soul is active, Basic Attack is empowered into Frigid Assault, dealing a total of 900% Ice damage and also gain Frosted Body for a fixed duration during the attack. Incoming attacks are negated and enemies are slowed when struck while Frosted Body is active and also recover 50% Shield of Glory. Frigid Assault does not generate signal orbs.",
+        "QTE"                 : "Strike ferociously from the air, dealing 640% Ice damage.",
+        "Ultimate"            : "Expend 80 energy. Inject frigid air into the ground, causing a large freezing AOE, dealing 2300% Ice damage to all enemies struck.",
+        "Leader"              : "All team members' Ice damage +10%, Armored structures' Attack +5%.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Ultimate damage +20%. Damage +10% for triple-orbs performed with Frosted Body. The slow effect of Frosted Body is converted to Freeze, applying to all targets around the character.",
+        "SSSRank"             : "Etching Frost (Ice Res down) effect +10%. Recover 100% Shield of Glory when struck while Frosted Body is active and also gain Attack +10% for 5s.",
+        "SSS+Rank"            : "Retain maximum Shield of Glory and recover 40 ultimate energy when Frigid Soul is activated. Ice damage +20% during Frigid Soul. Freeze duration of Frosted Body +1s."
+      },
+      "Vera-Flare" : {
+        "Core"                : "Press Basic attack after every triple orb to gain 1 stack.<br>Press and hold Basic attack to consume all stacks to perform Thunderfall.<br>Press and hold Basic attack right after using Ultimate to perform Thunderfall. (SS rank only)",
+        "RedOrb"              : "Twirl the spear and gain 10% HP of shield and deal 230%/460%/690% Physical damage. Damage is converted to Lightning on 3-orb.",
+        "BlueOrb"             : "Thrust forward and pierce targets ahead, dealing 180%/360%/540% Physical damage. Damage is converted to Lightning on 3-orb.",
+        "YellowOrb"           : "Spin around the spear, pulling enemies in and deal 190%/380%/570% Physical damage. Damage is converted to Lightning on 3-orb.",
+        "Attack"              : "Perform a series of spear attacks, dealing a total of 860% Physical damage. Immediately performing Basic Attack after any 3-orb will trigger a Follow-up, dealing 310%/230%/200% Lightning damage for Red/Yellow/Blue respectively. Immediately enter the third combo after dodging.",
+        "QTE"                 : "Plunge and place the battle standard into the ground, dealing 600% Lightning damage and a total of 200% AOE damage over time for 8s.",
+        "Ultimate"            : "Expend 50 energy and hurl the spear at full force, dealing 1500% Lightning damage ahead.",
+        "Leader"              : "All team members' Lightning damage +10%, Armored structures' Attack +5%.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "QTE attack will automatically be performed upon switching out. Ultimate energy cost -20%. Thunderfall can be performed after activating Ultimate.",
+        "SSSRank"             : "Gain Super Armor and reduce damage taken by 50% when a shield is active. Interference Lightning resistance reduction is increased to -25%. Ultimate lightning damage +100%",
+        "SSS+Rank"            : "Thunderfall grants 20% HP of shield. Thunderfall lightning damage +25%."
+      },
+      "Collab-Nier" : {
+        "A2" : {
+          "Core"                : "Gain 5% HP worth of POD: Shield when performing 3-orb combos (Up to 30% HP worth). Summons a pod at the same time to fire 6 homing missiles to targets at random, dealing a total of 140% Physical damage and gaining 3% HP worth of POD: Shield. Homing missiles apply Provoke (Defense is reduced by 20%. Effect is doubled when 2B and 9S are present in the team). Press and hold the dodge button while moving in a direction to initiate sliding, gaining 10% HP worth of POD: Shield each second. Dodge meter can not regenerate while sliding. Electricity produced from sliding will drag nearby enemies along.",
+          "RedOrb"              : "Attack forward continuously, dealing 200%/400%/600% Physical damage. Enhance the next Basic attack for 4s when 3-orb is triggered, dealing a total of 300% Physical damage and gain 3% HP worth of POD: Shield. Enemies in the area are knocked down.",
+          "BlueOrb"             : "Unleash a gravity field ahead using the POD, dealing 150%/300%/450% Physical damage and continuously pull in enemies for 2/2.5/3s. (The pull speed outside of the field is slower and does not deal damage)",
+          "YellowOrb"           : "Attack forward continuously, dealing 200%/400%/600% Physical damage.",
+          "Attack"              : "Attack forward continuously, dealing a total of 760% Physical damage, each strike awarding 1% HP worth of POD: Shield.",
+          "QTE"                 : "Attack continuously, dealing 600% Physical damage.",
+          "Ultimate"            : "Berserk Mode can be activated when POD: Shield is fully charged. A2 receives 60% reduced damage and movement speed is increased. Damage is also increased by 30% and also gain Super Armor during the mode. During Berserk Mode, Basic attack speed is increased. 3-orb combos will emit an electric burst, dealing 150% Physical damage. Berserk Mode drains 4% of the Max HP every second (POD: Shield will be prioritized first if it is present). Berserk Mode can be deactivated manually or when A2's HP reaches the 60% threshold. The mode can not be activated again for 10s after deactivation. When A2 leaves the battlefield with Berserk Mode active, the POD: Shield continues to drain. Berserk Mode ends when the POD: Shield is empty while off the field.",
+          "Leader"              : "2B, 9S and A2 within the team receive Physical damage +8% and dodge limit +200.",
+          "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+          "SSRank"              : "Always gain 50% POD: Shield upon entry to battle. The pod will automatically launch homing missiles every 4s during Berserk Mode (off-field included). Additionally, when 2B and 9S are present in the team, the next active character receives Physical damage +10% until Berserk Mode ends.",
+          "SSSRank"             : "Damage -70% to enemies within the gravity field. Pod homing missiles damage +100%. Provoke (Def down) effect is increased to 40%.",
+          "SSS+Rank"            : "The HP threshold of Berserk Mode deactivation is lowered to 30%. When POD: Shield is active during Berserk Mode, the ultimate gauge drains at 2.5% HP per second instead and damage is increased by 10%."
+        },
+        "9S" : {
+          "Core"                : "Start the battle with 100 Overclock Energy points. When 3-orb is performed and when Overclock Energy is greater than 50, consume 50 Overclock Energy and gain an Overclock Indicator orb of the corresponding color on the rightmost side of the orb bar. (Possession limit of 1). 20 points of Overclock Energy is generated every second (Up to 100). Pressing the Overclock Indicator orb will expend all existing orbs of the same color, summoning POD to unleash a barrage of bullets, dealing 100%/200%/300% Physical damage. (Expending Overclock Indicator orbs is unique and does not follow normal orb rules) If the number of signal orbs expended from Overclock Indicator exceeds 3, a random amount of the excess orbs is returned. The swap cooldown of other characters is reduced by 1s for each Overclock Indicator is performed (Up to 4s).",
+          "RedOrb"              : "Fire a laser using the pod, dealing 200%/400%/600% Physical damage.",
+          "BlueOrb"             : "Unleash an expanding electric ring using the pod, dealing 180%/360%/540% Physical damage to targets that come into contact with the ring while allies are healed for 40%/80%/120% of 9S' Attack.",
+          "YellowOrb"           : "Unleash a deceleration field using the pod, dealing 190%/380%/570% Physical damage and halting all enemies within the area for 0.6/1.2/2.4s.",
+          "Attack"              : "Attack forward continuously, dealing a total of 860% Physical damage. Sprint can be performed after dodging. Triggering Basic attack while sprinting deals 240% Physical damage. Basic attacks do not generate orbs. Orbs are automatically generated every 2.5s.",
+          "QTE"                 : "Hack a friendly target and heal for 100% of 9S' Attack.",
+          "Ultimate"            : "Expend 80 energy and commence hacking on the target. Deal 2600% Physical damage when the hack is successful. (Minigame can be toggled to Skip in the Character Skills page)",
+          "Leader"              : "2B, 9S and A2 within the team receive Physical damage +8% and -10% damage received.",
+          "Class-passive"       : "Healing +20%",
+          "SSRank"              : "Possession limit of Overclock Indicator is increased by 1. Gain a random Overclock Indicator orb when entering the field. QTE and Blue orbs will apply E-Drug to 2B and A2. E-Drug: Physical damage +10% for 8s.",
+          "SSSRank"             : "Signal orb generation speed is increased to 1.5s. Overclock Indicator damage +50%. E-Drug effect increased to 20% for 12s.",
+          "SSS+Rank"            : "Triggering Overclock Indicator grants 0.3s of invulnerability and Physical damage +10% for 5s. (Effect is increased to 20% when 2B and A2 are in the team)"
+        },
+        "2B" : {
+          "Core"                : "Yellow 3-orb followed by any 3-orb grants 160 Stance Stability points. Stance Stability drains at 20 points a second. Triggering it again does not refresh the duration. Enter Combat Stance while Stance Stability is active; Basic attacks, Red and Yellow orbs gain sword waves, dealing 70% Physical damage. Blue orbs can be used to break out of incoming attacks. During Combat Stance, 2 and 3 Red orb combos grant 1 and 2 stacks of Data Correction respectively for 8s up to 3 stacks, with each stack granting 2% Physical damage bonus. (Effect is increased to 4% when 9S and A2 are present in the team). Data Correction stacks are removed when Combat Stance ends. Triggering the effect again or activating ultimate will refresh Data Correction's duration. Combat Stance gauge does not drain during ultimate.",
+          "RedOrb"              : "Attack with both light and heavy weapons, dealing 220%/440%/660% Physical damage. Gain Super Armor during the move.",
+          "BlueOrb"             : "Unleash an illusion using the POD, dealing 140%/280%/420% Physical damage to nearby enemies. Gain Super Armor during the move.",
+          "YellowOrb"           : "Move forward and brandish the light weapon, dealing 200%/400%/600% Physical damage, dragging enemies along the way. Apply Withdraw to enemies struck, reducing Attack by 60% for 12s. Gain Super Armor during the move. Direction of the attack can be navigated with the directional stick.",
+          "Attack"              : "Continuously attack with the light weapon, dealing a total of 840% Physical damage. Go into a sprint after dodging. Triggering Basic attack while sprinting deals 290% Physical damage.",
+          "QTE"                 : "Continuously slash the target with the heavy weapon, dealing a total of 640% Physical damage.",
+          "Ultimate"            : "Expend 80 energy. Slash forward after charging the heavy weapon, dealing a total of 800% Physical damage. When the final hit lands on the target, trigger the second attack phase and slash forward with the heavy weapon, dealing a total of 1800% Physical damage.",
+          "Leader"              : "2B, 9S and A2 within the team receive Physical damage +8% and 25 energy at the start of battle.",
+          "Class-passive"       : "Damage +20%.",
+          "SSRank"              : "When 2B, 9S or A2 activates an ultimate, 9S and A2's Critical Rate +10% and 2B's Critical Rate +25% for 12s.",
+          "SSSRank"             : "Passive: Sword wave damage +50%. When ultimate is triggered, convert all Yellow orbs into random orbs. 2B and 9S gain 5 energy when a sword wave strikes a target; A2 recovers 1% HP worth of POD: Shield, 1.5s cooldown. Data Correction Attack buff is increased to 4% per stack (8% when 9S and A2 are in the team).",
+          "SSS+Rank"            : "Damage received is reduced by 30% during skill activations. Triggering Blue orbs grant 0.3s of invincibility. Physical damage +10% (20% when 9S and A2 are in the team) during Combat Stance."
+        }
+      }
+    },
+    "A_Ranks" : {
+      "Lucia-Dawn" : {
+        "Core"                : "Attacking a Marked target has a 25%/50%/75% chance of triggering a lightning strike based on the number of Mark stacks, dealing 60% Lightning damage.",
+        "RedOrb"              : "Perform a flurry of attacks, continuously hitting 5/5/5 times, dealing 40%/80%/144% Physical damage. Damage converts to Lightning damage when it is a 3-orb. Gain Super Armor during the attack.",
+        "BlueOrb"             : "Quickly launch an attack towards the target, dealing 80%/160%/240% Lightning damage and pulling the target towards the character, dealing 80%/160%/240% Physical damage. Targets are Marked. Marks stack up to 3 times and the duration is renewed when additional Marks are applied.",
+        "YellowOrb"           : "Release a lightning field, dealing 100%/200%/300% Physical damage. Targets are Marked. The field persists for 3/4/5 seconds, dealing 20%/30%/40% Lightning damage per second. Marks stack up to 3 times and the duration is renewed when additional Marks are applied.",
+        "Attack"              : "Continuously attack the enemy, dealing a total of 650% Physical damage.",
+        "QTE"                 : "Perform a sweeping attack upon entering the battlefield, dealing 210% Physical damage and 570% Lightning damage to the target.",
+        "Ultimate"            : "Expend 50 energy. Unleash additional Gurren blades. Basic attacks and skills gain an additional 25% Lightning damage for 15s. Duration is renewed when ultimate is triggered again within this state.",
+        "Leader"              : "All Assault structures' attack +10%",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Lightning damage +20% when the character is within the lightning field.",
+        "SSSRank"             : "Marked lightning strike damage +20%.",
+        "SSS+Rank"            : "Damage +15% for 10s after activating ultimate."
+      },
+      "Liv-Lux" : {
+        "Core"                : "Attacking Marked targets has a 30% chance of summoning a Lightning strike, dealing 60% Lightning damage. Red orbs have a 30%/60%/100% chance of triggering a Lightning strike. After 4 triggers, the next Lightning strike summons an EX-Lightning strike instead, dealing 200% Lightning damage and heals allies for 40% of Liv's Attack.",
+        "RedOrb"              : "Fire the ion cannon once, dealing 200%/400%/600% Physical damage.",
+        "BlueOrb"             : "Create an ion wall at target's location, electrifying targets that pass through for 60% Lightning damage per second for 2/4/6s and reduces movement speed by 20%/40%/80%. Target is Marked for 8s.",
+        "YellowOrb"           : "Create a cube at target's location, inflicting targets with the Supercomputing Space effect for 1/2/3 seconds, dealing 60%/90%/120% Lightning damage and mildly pulling targets in. The cube explodes for 60%/120%/180% Lightning damage when it vanishes.",
+        "Attack"              : "Continuously fire lightning strikes at the enemy, dealing a total of 650% Physical damage.",
+        "QTE"                 : "Summons an EX-Lightning strike upon entering the field, dealing 200% Lightning damage to targets within the area. The generated ion field heals all allies for 25% of Liv's Attack every second.",
+        "Ultimate"            : "Expend 100 energy and create an electric field. Allies in the field gain 1 signal orb every second and 20% Attack increase. Enemies in the field have 50% reduced movement speed.",
+        "Leader"              : "All team members' Max HP +5%, Attack +5%.",
+        "Class-passive"       : "Healing +20%.",
+        "SSRank"              : "The field generated from EX-Lightning also increases allies' Lightning damage by 20%.",
+        "SSSRank"             : "Lightning strike damage +20%.",
+        "SSS+Rank"            : "Enemies in the cube have 15% reduced Lightning resistance."
+      },
+      "Lee-Palefire" : {
+        "Core"                : "Consuming Yellow orbs will add Blast effect to the next Red orb. (Bullets explode on impact, dealing 40% Fire damage in an area)",
+        "RedOrb"              : "Quickly fire 15 shots at the target with dual pistols, each bullet dealing 16%/30%/48% Physical damage. Gain Super Armor during the attack.",
+        "BlueOrb"             : "Fires a electric burst at the target, dealing 200%/400%/600% Physical damage.",
+        "YellowOrb"           : "Fire an incendiary round at the target, dealing 100%/150%/200% Fire damage upon impact and leaves behind a burning field for 3/4/5 seconds that deals 12%/24%/36% Fire damage every 0.5s. Attacking enemies within the field grants an additional 12% Fire damage, triggering at a maximum of once every 0.1 second.",
+        "Attack"              : "Fire continuously, dealing a total of 880% Physical damage.",
+        "QTE"                 : "Fire with dual pistols upon entering the field, dealing 330% Physical damage and inflicting Electrification. (Target takes additional 20% Physical damage for 5s when hit) Can be triggered up to 15times.",
+        "Ultimate"            : "Expend 100 energy and fire all around the character, dealing a total of 800% Physical damage with the final hit dealing 1200% Fire damage.",
+        "Leader"              : "All team members' Physical damage +5%, Elemental damage +5%.",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Damage +15% to enemies within the burning field.",
+        "SSSRank"             : "Damage +15% when damage is not taken, cooldown 10s.",
+        "SSS+Rank"            : "Core passive damage +20%."
+      },
+      "Kamui-Bastion" : {
+        "Core"                : "Gain 40 stored energy after any 3-orb combo. Stored energy limit is 120. Attack is increased by 6%/12%/18% when the stored energy value is at 0/40/80. Stored energy is decreased by 8 points every second during the charged state.",
+        "RedOrb"              : "Perform a downward cut, dealing 200%/400%/400% Physical damage. Perform an additional strike for 400% Physical damage when a 3-orb combo is done.",
+        "BlueOrb"             : "Protect self with a burst of energy, gaining 50%/100%/150% Defense worth of shield. Inflict 1/1.5/2s stun and 100%/200%/300% Physical damage when the ground is struck.",
+        "YellowOrb"           : "Go into a block stance for 2s, reduce damage taken by 75%. Perform an area-wide counterattack for 200%/400%/600% Physical damage when an attack is successfully blocked and also gain 40/80/120 stored energy. Perform a sword wave when the block duration ends or when Basic attack is triggered during blocking, dealing 100%/200%/400% Physical damage and ending the block stance.",
+        "Attack"              : "Swing the greatsword continuously, dealing a total of 790% Physical damage.",
+        "QTE"                 : "Strike the target with the greatsword upon entering the field, dealing 500% Physical damage. Target is stunned for 3s and Defense reduced by 10% for 6s.",
+        "Ultimate"            : "Expend 100 energy. Accumulate a burst of energy and swiftly swing the greatsword at the target, dealing 2000% Physical damage.",
+        "Leader"              : "All team members' Physical damage +10% when HP is above 70%.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Gain 1 random signal orb after a successful block, 5s cooldown.",
+        "SSSRank"             : "When stored energy is greater than 60, Physical damage taken is reduced by 60%. Physical damage +8%.",
+        "SSS+Rank"            : "Physical damage +10% when a shield is present."
+      },
+      "Watanabe-Nightblade" : {
+        "Core"                : "Mark the target once at the end of every 3-orb combo. Generate an energy clone for 5s when there are 2 stacks of Marks. The energy clone attacks once for 90% Physical damage whenever Basic attack is performed.",
+        "RedOrb"              : "Continuously attack the target 4 times, dealing 160%/320%/480% Physical damage. Perform an additional attack for 160% Physical damage for 3-orb combos.",
+        "BlueOrb"             : "Thrust the knife into the target and then pulling it out. Dealing 80%/160%/240% Physical damage for the thrust, and 70%/140%/210% for the pull. Damage is guaranteed critical when attacking from the target's rear.",
+        "YellowOrb"           : "Rush forward and pierce through the enemy, dealing 160%/320%/480% Physical damage along the way. Perform an additional attack for 120% Physical damage for 3-orb combos.",
+        "Attack"              : "Continuously attack with dual blades for 740% Physical damage.",
+        "QTE"                 : "Stab downwards from mid-air, dealing 600% Physical damage.",
+        "Ultimate"            : "Expend 100 energy and unleash a blade flurry, dealing a total of 3000% Physical damage.",
+        "Leader"              : "Team members' Critical rate +10% when there are 3 different professions.",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Damage +15% when attacking from the target's rear.",
+        "SSSRank"             : "Damage +15% when an energy clone is present.",
+        "SSS+Rank"            : "Enemies damaged by ultimate has 15% reduced Physical resistance for 10s."
+      },
+      "Karenina-Blast" : {
+        "Core"                : "Enter Burst state after triggering any 3-orb combo 3 times. Basic attack changes to long-ranged cannon salvos for 3s, dealing 80% Physical damage per hit.",
+        "RedOrb"              : "Fire 6 shells ahead, dealing 40%/80%/120% Physical damage.",
+        "BlueOrb"             : "Fires a special shell ahead, drawing enemies in and dealing 100%/200%/300% Physical damage. Enemies within the area take 50% Physical damage every second for 1/2/3s",
+        "YellowOrb"           : "Quickly launch a shell at the target, dealing 150%/300%/450% Physical damage and Marking them. Marked targets have a 75% chance of receiving 10%/20%/30% Fire damage when taking damage.",
+        "Attack"              : "Continuously attack with the cannon, dealing a total of 600% Physical damage.",
+        "QTE"                 : "Fires a whirling shell, dealing up to 500% Physical damage.",
+        "Ultimate"            : "Expend 100 energy and continuously bombard the target's area with each bombardment dealing 100% Physical damage. Enter Burst state after using ultimate.",
+        "Leader"              : "Team members' Attack +10% when there are 3 different professions.",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Yellow orb skill damage +50%.",
+        "SSSRank"             : "Marked enemies take 15% more damage.",
+        "SSS+Rank"            : "Basic attack damage +20%."
+      },
+      "Bianca-Zero" : {
+        "Core"                : "1 energy arrow is stored for every 3-orb performed. Maximum of 3 arrows can be stored. All arrows are unleashed on the next ultimate performed, each arrow dealing 100% Physical damage twice.",
+        "RedOrb"              : "Continuously fire 1/2/3 arrows at the target. Each arrow deals 200% Physical damage.",
+        "BlueOrb"             : "Infuse the weapon with energy for 4/6/8s. Basic attacks gain additional 1/2/3 arrows. Dealing 20%/30%/40% Physical damage per arrow.",
+        "YellowOrb"           : "Fire 5/5/7 energy arrows ahead, each arrow dealing 30%/60%/90% Physical damage upon impact. Generate 1/2/3 energy when target is struck.",
+        "Attack"              : "Continuously fire 9 arrows at the target, dealing a total of 580% Physical damage.",
+        "QTE"                 : "Fires 5 times continuously at the target, dealing 60% Physical damage per hit and is guaranteed critical.",
+        "Ultimate"            : "Expend 60 energy and fire an arrow shower at the target, each arrow dealing 200% Physical damage.",
+        "Leader"              : "All team members' Critical Damage +10%.",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Basic attack damage +15%.",
+        "SSSRank"             : "Critical damage +30%.",
+        "SSS+Rank"            : "Ultimate damage +20%."
+      },
+      "Ayla-Brilliance" : {
+        "Core"                : "Consuming a Blue orb after any 3-orb combo will draw in nearby enemies. Gain 8% HP worth of shield for 7s and deal 700% Physical damage. Damage taken during the move is reduced by 70%.",
+        "RedOrb"              : "Swing the scythe in place and attack the target, dealing 150%/300%/900% Physical damage.",
+        "BlueOrb"             : "Toss the scythe and pull it back, dealing 20%/40%/60% Physical damage each time to enemies along the way.",
+        "YellowOrb"           : "Charge towards the target, dealing 90%/180%/270% Physical damage and follow-up with the scythe, dealing 120%/240%/360% Physical damage.",
+        "Attack"              : "Continuously attack the target with the scythe, dealing 610% Physical damage.",
+        "QTE"                 : "Continuously attack the target upon entering the field, dealing 500% Physical damage and reducing target's defense by 10% for 6s. The final hit launches the target.",
+        "Ultimate"            : "Expend 80 energy. Swing the scythe while moving, attacking targets in the area. Each strike dealing 120% Physical damage with the final attack dealing 600% Physical damage. Direction of the attack can be navigated with the directional stick.",
+        "Leader"              : "All team members' Defense +10%, Attack +5% when there are 3 different professions.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Gain Defense and Physical damage +10% for 5s when a Yellow signal orb hits a target.",
+        "SSSRank"             : "Targets struck by core passive have 15% reduced Defense for 5s.",
+        "SSS+Rank"            : "Damage +20% for 10s after triggering ultimate."
+      },
+      "Watanabe-Astral" : {
+        "Core"                : "Consuming Red orbs after any 3-orb combo will disperse the character into the shadows and perform a series of attacks, each hit dealing 60% Dark damage. Enter Enhanced Shadow state for 5s when the attack ends, basic attacks gain extra 300% Dark damage, Follow-up gains extra 100% Dark damage.",
+        "RedOrb"              : "Shuffle back and throw darts in a fan forward, dealing 200%/400%/600% Physical damage. Damage is converted to Dark element when it is a 3-orb.",
+        "BlueOrb"             : "Instantly move behind the target and attack, dealing 150%/300%/450% Physical damage. Damage is converted to Dark element when it is a 3-orb.",
+        "YellowOrb"           : "Leap forward and perform a spinning attack, dealing 40%/80%/120% Physical damage to nearby targets. Deal an additional 50%/100%/150% Physical damage to nearby attacks upon landing. Damage is converted to Dark element when it is a 3-orb.",
+        "Attack"              : "Continuously assassinate the target, dealing a total of 600% Physical damage. Basic attacks can trigger Follow-up after dodging or consuming Red orbs, dealing 200% Physical damage.",
+        "QTE"                 : "Attack the target from the air upon entry to the battle, disperse into the shadow upon landing and attack again, each hit dealing 300% Dark damage.",
+        "Ultimate"            : "Expend 100 energy. Disperse into the shadow and continuously assassinate the target, each hit dealing 600% Dark damage.",
+        "Leader"              : "All team members' Dark damage +10%, Assault-type structures attack +5%.",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Deal 10% more damage towards enemies affected by Blue orb skill for 4s.",
+        "SSSRank"             : "Deal 10% more damage towards enemies affected by Follow-up for 5s.",
+        "SSS+Rank"            : "Dark damage +20% during Enhanced Shadow state."
+      },
+      "Sofia-Silverfang" : {
+        "Core"                : "Drop 1 energy orb when Sofia performs the last sequence of the Basic attack, 3-orb combos, ultimate or QTE. Picking up energy orbs will heal around the member for 20% of Sofia's Attack and Fire damage +10% for 5s. Sofia gains 4 energy and 75 Heat whenever an orb is retrieved. Sofia gains 5%/10%/15% additional attack when Heat value surpasses 0/100/200.",
+        "RedOrb"              : "Launch tracking rounds on the spot at targets, dealing 240%/480%/720% Fire damage. Drops 1 energy orb on hit for 3-orb combos.",
+        "BlueOrb"             : "Fire rounds ahead in a fan area dealing 200%/400%/600% Fire damage and then shuffle backwards. Drops 1 energy orb on hit for 3-orb combos.",
+        "YellowOrb"           : "Swiftly move towards the target, dealing 40%/80%/120% Physical damage along the way. Attack is converted to Fire damage for 3-orb combos and drops 1 energy orb.",
+        "Attack"              : "Continuously fire with the handgun and mechanical arms, dealing a total of 850% Fire and Physical damage.",
+        "QTE"                 : "Shoot the target from the air upon entry to battle, dealing 400% Fire damage and drops 1 energy orb. Drop an additional energy orb when Skill Level reaches 10.",
+        "Ultimate"            : "Expend 100 energy. Gather energy and fire ahead for 200% Fire damage, continually drawing nearby enemies in and dealing 20% Fire damage each time. Explode for 600% Fire damage at the end and drop 2 energy orbs.",
+        "Leader"              : "All team members' HP+10%, movement speed +5% when there are 3 different professions.",
+        "Class-passive"       : "Healing +20%.",
+        "SSRank"              : "Ultimate and QTE drop an additional energy orb.",
+        "SSSRank"             : "Fire damage +10% for 5s when the same character receives healing from energy orbs 3 times within 5s.",
+        "SSS+Rank"            : "Enemies struck by ultimate have 15% reduced Fire resistance for 5s."
+      },
+      "Chrome-Arclight" : {
+        "Core"                : "Consuming Blue orbs after any 3-orb combo grants 10% HP worth of shield for 4s. When the shield renews or expires, deal 200% Lightning damage around the character.",
+        "RedOrb"              : "Attack on the spot with the scythe, each hit dealing 18%/36%/54% Physical damage. Damage is converted to Lightning element when it is a 3-orb.",
+        "BlueOrb"             : "Spin in an electric burst, dealing 150%/300%/450% Lightning damage and Marks the target for 6s. Deal additional 6%/8%/10% damage towards Marked targets. Received 10%/15%/20% reduced damage from Marked targets' attacks.",
+        "YellowOrb"           : "Continuously move and spin multiple times, pulling in nearby targets and then perform a downward strike, each hit dealing 20%/40%/60% Physical damage. Deal 60%/120%/180% Lightning damage in an area as the scythe strikes the ground. Damage is converted to Lightning element when it is a 3-orb.",
+        "Attack"              : "Continuously attack with the scythe, dealing a total of 610% Physical damage.",
+        "QTE"                 : "Attack targets around the area upon entering the battle, dealing 250% Lightning damage and reducing Lightning resistance by 10% for 6s. Strike the ground after, dealing 250% Lightning damage in the area.",
+        "Ultimate"            : "Expend 100 energy. Charge self with lightning for 8s and pull nearby targets in. Basic attack is converted to Lightning Strike. Within the duration, core passive is triggered after every 5th Lightning Strike. When triggering Lightning Strike, deal 35% Lightning damage during the sprint and then slash for 120% Lightning damage.",
+        "Leader"              : "All team members' Defense +10%, HP +5% when there are 3 different professions.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Lightning damage +10% when Arc Shield is active.",
+        "SSSRank"             : "When Chrome is swapped into battle, gain ultimate state for 4s.",
+        "SSS+Rank"            : "Lightning Strike reduces Lightning resistance by 15% for 8s."
+      },
+      "Vera-Rozen" : {
+        "Core"                : "Gain 3/7/12 Overclock when consuming orbs. Generate 2 Overclock every second as well. Overclock caps at 60 points. When Overclock value is sufficient, long press Basic attack to unleash the core attack. Repeatedly activate Basic attack to continue the core attack combo, dealing 300%/290%/290%/290%/312% AOE Dark damage. Deal an additional 20%/40%/20%/20%/40% Dark damage to nearby targets. Triggering core attack consumes 12 Overclock and generates 6 energy.",
+        "RedOrb"              : "Perform a flurry of attacks, dealing 180%/360%/560% Physical damage. Damage is converted to Dark element when it is a 3-orb.",
+        "BlueOrb"             : "Perform a short dash attack, dealing 100%/200%/300% Physical damage and Marking the first target. Damage is converted to Dark element when it is a 3-orb. Marked targets take 20%/40%/60% AOE Dark damage every second. Members within the area are healed 10%/20%/30% of Vera's Attack. Only 1 Mark can exist at a time.",
+        "YellowOrb"           : "Unleash a dark energy wave, dealing 100%/200%/300% Dark damage. Subsequently rushing forward, dealing multiple hits of 10%/20%/30% Physical damage. Damage is converted to Dark element when it is a 3-orb.",
+        "Attack"              : "Attack repeatedly with main-hand and offhand weapons, dealing a total of 740% Physical damage.",
+        "QTE"                 : "Deal 400% AOE Dark damage upon entering the field and heal allies within the area for 100% of Vera's Attack and gain 5s of Dark Radiation (Dark damage +10%).",
+        "Ultimate"            : "Expend 100 energy. Unleash a dark field for 6s, dealing 320% AOE Dark damage, and 80% Dark damage every second. Allies within the are are healed for 16% of Vera's Attack and gain Dark Radiation effect and movement speed +20%.",
+        "Leader"              : "All team members' HP +5%, Healing received +5%.",
+        "Class-passive"       : "Healing +20%.",
+        "SSRank"              : "Attack +5% for 5s, stacks up to 3 times when core passive attack is performed.",
+        "SSSRank"             : "Dark Radiation's Dark damage bonus is changed to 20%.",
+        "SSS+Rank"            : "Ultimate duration +4s."
+      },
+      "Changyu-Kirin" : {
+        "Core"                : "Gain a Follow-up Attack orb at the start of battle. The orb is usually grayed out (Disabled). The Follow-up Attack orb will flash after any 3-orb combos performed; there will be a short duration to activate the orb. Different orb colors will result in different Follow-up Attack moves.",
+        "Core2"               : "Red follow-up: Strike with the back, dealing 500% Ice damage. Basic combo continues from the 4th sequence after that.",
+        "Core3"               : "Blue follow-up: Deal 300% Ice damage with an icicle attack, reducing target's speed for a short time and leave behind 8s of Ice Mirror.",
+        "Core4"               : "Yellow follow-up: Shuffle backwards and pull nearby enemies towards the condensed ice. Deal 400% AOE Ice damage as the ice shatters.",
+        "RedOrb"              : "Swifly attack the front twice, dealing 200%/400%/400% Physical damage. During a 3-orb combo, charge up for a short time after the two initial hits amd follow up with a heavy attack, dealing 400% Ice damage and target's speed is reduced.",
+        "BlueOrb"             : "Strike the ground, dealing 100%/150%/200% Physical damage to enemies within a 4m radius. Damage is converted to Ice element when it is a 3-orb. Leave behind an Ice Mirror for 4/6/8s after striking the ground. Enemies within the Ice Mirror has 30% reduced movement speed and 5% reduced Ice resistance for 8s. Duration is constantly renewed within the field. Only 1 Ice Mirror can be present at any time and is replaced by the newest one, if any.",
+        "YellowOrb"           : "Dash towards the target and perform an upwards kick, dealing 220%/440%/660% Physical damage. Damage is converted to Ice element when it is a 3-orb.",
+        "Attack"              : "Attack swiftly with the gauntlets, dealing a total of 320% Physical damage and 810% Ice damage.",
+        "QTE"                 : "Instantaneously appear at the target's location and smash downwards doing 5 hits, dealing a total of 500% Ice damage and target is slowed for a short duration.",
+        "Ultimate"            : "When ultimate energy reaches 60 points, Formless Style can be accessed. All orbs apart from the Follow-up Attack orb will be removed. Each orb removed grants 5 points of ultimate energy. The Follow-up Attack orb is permanently lit. Defense and Ice damage are increased by 20%. Orbs can not be generated during this state. Activating the ultimate button again will deduct 60 ultimate energy, the Follow-up Attack orb grayed out, 4 random signal orbs are returned and Formless Style is canceled. During Formless Style, pressing the Follow-up Attack button will consume 15 ultimate energy to perform a Rupture, dealing 360% Ice damage. Pressing the Follow-up Attack button after the 3rd or 4th Basic attack sequence unleashes Circulating Tide, striking rapidly with each sequence costing 7/7/7/7/10 ultimate energy, dealing 980% Ice damage in total. Gain Super Armor during the move. Recover 100 evasion points when succesfully dodging during Formless Style. Ice damage is increased by 20% during Supercomputing Space. Proceed straight to the 4th Basic attack sequence after dodging or performing Rupture.",
+        "Leader"              : "All team members' Defense +15%.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Ice damage and Defense +15% during Formless Style.",
+        "SSSRank"             : "Ice Mirror's Ice resistance reduction is strengthened to 10%. Blue orbs now grant Ice damage +10% to self for 4/6/8s.",
+        "SSS+Rank"            : "Follow up-Attack and Circulating Tide reduces target's Ice resistance by 5% for 8s. Follow-up Attack and Circulating Tide grants Ice Damage +20% to Changyu for 8s."
+      },
+      "Wanshi-Fate" : {
+        "Core"                : "Releasing the Basic Attack button during Tactical Shooting Stance activates Bloom Shot, dealing 200% Ice damage in a line. Going into Bloom Shot counts as an evasive move. Successfully dodging during Bloom Shot grants extended invulnerability and deals 700% Ice damage instead.",
+        "RedOrb"              : "Perform a spiral kick attack, dealing AOE in a straight line for 170/340/510% Physical Damage. Gain a short duration of Super Armor for 1 or 2 orb combos, 3 orb combos grant extended Super Armor.",
+        "BlueOrb"             : "Lobs a freezing hand grenade, slowing enemies in its AOE for 140/280/420% Ice Damage and heals all allies within the area based on 30/60/90% Banji's Attack. 3 orb combos grant extended Super Armor.",
+        "YellowOrb"           : "Perform an elbow strike, dealing 190/380/570% Physical Damage AOE in a straight line. Gain a short duration of invulnerability, 3 orb combos grant extended Super Armor.",
+        "Attack"              : "Combine both Form and Combat tactics, dealing 350% Physical damage and 360% Ice damage. Holding the Basic Attack button within 1s after using a 3orb combo activates Tactical Shooting Stance. Stance can be maintained by continuous holding. Every barrage deals 100% Ice damage.",
+        "QTE"                 : "Lobs a freezing hand grenade, slowing enemies in its AOE for 360% Ice damage and leaves behind a field, dealing a total 200% Ice damage over time. Heals all allies within the area based on 100% of Banji's Attack and grants 8s of Condensed Frost (Ice damage +10%).",
+        "Ultimate"            : "Expend 80 energy. Fire ahead for 1400% Ice damage.",
+        "Leader"              : "All team members' HP +10%, Ice damage +5%.",
+        "Class-passive"       : "Healing +20%.",
+        "SSRank"              : "Bloom Shot damage +50%. Gain 5% energy for every second off the field.",
+        "SSSRank"             : "Condensed Frost buff increased to 20%.",
+        "SSS+Rank"            : "Ultimate damage +100%. Bloom Shot grants 5% energy. Successfully evading during Bloom Shot grants a bonus 10% energy."
+      },
+      "No21-XXI" : {
+        "Core"                : "Gather 1 point of Shadow Prism energy for each Basic Attack performed. Perform a Shadow Prism attack upon the next Basic Attack when there are 4 points of energy and generate 1 Twilight Matrix on the target's location, knocking them down and dealing 48% Dark damage. The Shadow Prism energy will reset once a Shadow Prism attack is performed. The Shadow Matrix lasts for 3s and grants 2 Ultimate energy to No.21. A Resonance Pulse will trigger when the Collab Bot's positional wave interacts with the Twilight Matrix, destroying it and dealing 16% Dark damage AOE. No.21 recovers 40 evasion energy for each Twilight Matrix generated. <br><br> Forced Evasion: When No.21 is staggered (Receiving attacks, Knockdown, Stagnanation), spend x1.4 evasion (350) to perform a Forced Evasion, removing all abnormal effects and unleashes 1 Twilight Matrix on the target's location. Forced Evasion grants 2s of Super Armor and 15% of No.21's HP as shield.",
+        "RedOrb"              : "Leap into the air and place a Twilight Field on target's location. The Twilight Field will pull all enemies in a large area once upon generation, dealing 100%/200%/300% Physical damage. Damage is converted to Dark element on 3-orb. The field lasts for 1.5/3.5/6s and continuously draws in enemies. <br><br> No.21 enters Stagnation upon 3-orb chains and is able to perform a Forced Evasion while unleashing 3 Twilight Matrix on the target. Collab Bot: Whenever No.21 generates a Twilight Matrix, unleash a gravitational wave on the Twilight Field, pulling targets in a large area once and dealing 70% Dark damage.",
+        "BlueOrb"             : "Enter Overload Superposition state. Copy the next 1/2/4 Basic Attacks and Shadow Prism attacks. The effect cannot be stacked. Collab Bot: Immediately perform a sprint attack at the current target, dealing a total of 40% of No.21's Attack as Physical damage and reducing the target's damage dealt by 20% for 5s. The effect can only be triggered once every 2s.",
+        "YellowOrb"           : "Leap according to the directional button and unleash a Twilight Saw, dealing a total of 140%/280%/420% Physical damage. Damage is converted to Dark element on 3-orb. No.21 enters Stagnation upon 3-orb chains and is able to perform a Forced Evasion while unleashing 3 Twilight Matrix on the target.",
+        "Attack"              : "Fire continuously with the beam cannons, dealing a total of 348% Physical damage. <br><br> Collab Bot: Perform self-regulated attacks on the current target, dealing 20% of No.21's attack as Physical damage. The collaborative bot will always be on the field.",
+        "QTE"                 : "Summon a Twilight Field on target's location, dealing 40% Dark damage and unleash 3 Twilight Matrix.",
+        "Ultimate"            : "Expend 120 energy and unleash an Enhanced Twilight Field on target's location and enter Quick Attack Mode, emptying all of No.21's signal orbs and Shadow Prism energy while granting No.21 unlimited Blue orbs and extreme attack speed. During Quick Attack Mode, Basic Attacks deal 20% Dark damage. Shadow Prism attacks can be triggered and will generate Twilight Matrices. When Quick Attack Mode ends, the Twilight Field explodes, dealing 600% Dark damage and emptying all of No.21's signal orbs, Ultimate energy and Blue orb buff at the same time. The explosion damage of each Twilight Matrix during Quick Attack Mode is increased by 40%. When the total number of generated Twilight Matrices reaches 6, an S rating Ultimate is awarded, granting up to 300% increased Twilight Matrix explosion damage. <br><br> Collab Bot: Project onto No.21's space and inflict Stillness onto all enemies. The Collab Bot will not be able to trigger other abilities during Ultimate.",
+        "Leader"              : "All members' maximum evasion limit +250, damage +5%",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Damage +5% when No.21 has a shield active. Damage taken -10% if there is no shield. Blue 3-orb chains will immediately regenerate full Shadow Prism energy.",
+        "SSSRank"             : "Twilight Matrices grant -20% damage taken and +25% evasion recovery rate to all allies on field for 2s, up to 3 stacks. Triggering the effect again does not refresh its duration. Twilight Field now applies Chain Fusion (-10% Dark resistance for 5s) to targets within.",
+        "SSS+Rank"            : "When the Ultimate rating is S, the Twilight Field explosion damage is further increased by 210%. When the Collab Bot attacks, all allies on field gain 2% of No.21's HP as shield, up to 10%."
+      }
+    },
+    "B_Ranks" : {
+      "Lucia-Lotus" : {
+        "Core"                : "Enter burst state, utilizing dual blades as basic attacks when expending a Red orb within 4s after any 3-orb. Continuously attack the enemy for a total of 1080% Physical damage.",
+        "RedOrb"              : "Thrust forward towards the target, pulling them in and dealing 266.72%/533.32%/800% Physical damage.",
+        "BlueOrb"             : "Ignite the weapon, dealing 100%/200%/300% Physical damage. Attacks gain additional 10%/15%/20% Fire damage for 4/4/6 seconds.",
+        "YellowOrb"           : "Launch the target swiftly in a one strike, dealing 150%/300%/450% Physical damage.",
+        "Attack"              : "Continuously attack, dealing 540% Physical damage.",
+        "QTE"                 : "Enter the battlefield with dual blades, dealing 1110% Physical damage.",
+        "Ultimate"            : "Expend 100 energy to unleash a flurry of blades, dealing 140% Physical damage for every hit, and 1000% Physical damage on the final hit.",
+        "Leader"              : "All Assault structures' attack +10%",
+        "Class-passive"       : "Damage +20%.",
+        "SSRank"              : "Targets launched into the air receive 20% additional Physical damage.",
+        "SSSRank"             : "Damage +15% during dual blades mode.",
+        "SSS+Rank"            : "Basic attack damage +15%."
+      },
+      "Liv-Eclipse" : {
+        "Core"                : "Any 3-orb combo followed by a Red orb will trigger a laser barrage, dealing a total of 800% Physical damage.",
+        "RedOrb"              : "Command the cannons to fire lasers once, dealing 200%/400%/600% Physical damage.",
+        "BlueOrb"             : "Release a burst of energy, knocking back enemies nearby and dealing 100%/200%/300% Physical damage. Nearby allies are healed for 40%/80%/120% of Liv's Attack and gain 16%/32%/48% Physical damage up for 5s.",
+        "YellowOrb"           : "Release a black hole at the target's position, drawing in enemies nearby. Deal 90%/150%/210% Physical damage for 1/2/3 seconds towards enemies within. The black hole will explode after, dealing 80%/160%/240% Physical damage.",
+        "Attack"              : "Continuously bombard the target with beams for a total of 640% Physical damage.",
+        "QTE"                 : "Release a burst of energy upon entering the field, restoring HP based on 20% of Liv's Max HP and dealing 200% Physical damage.",
+        "Ultimate"            : "Expend 100 energy and summon a large beam bombardment at the target's area for 2s. Each beam deals 70% Physical damage.",
+        "Leader"              : "All team members' Max HP+10%.",
+        "Class-passive"       : "Healing +20%",
+        "SSRank"              : "Gain 3 blue orbs after using ultimate.",
+        "SSSRank"             : "Current active member gains Physical damage +10% when Liv is not on the field.",
+        "SSS+Rank"            : "Damage +20% for 8s after using ultimate."
+      },
+      "Nanami-Storm" : {
+        "Core"                : "Any 3-orb combo followed by a Yellow orb will trigger an EX-Cutting Storm, striking surrounding enemies continuously 8 times, dealing 100% Physical damage per hit.",
+        "RedOrb"              : "Sprint forward and attack, dealing 240%/480%/720% Physical damage to enemies in a rectangle AOE ahead.",
+        "BlueOrb"             : "Pull enemies towards the character, dealing 100%/200%/300% Physical damage. Target's defense is reduced by 10%/20%/30% and Physical resistance of the character is increased by 20%/40%/60% for 4/4.5/5 seconds",
+        "YellowOrb"           : "Spin quickly in place, dealing 200%/400%/600% Physical damage around the character.",
+        "Attack"              : "Continuously attack with the chainsaw, dealing a total of 800% Physical damage.",
+        "QTE"                 : "Perform a spinning attack upon entering the field, dealing a total of 770% Physical damage.",
+        "Ultimate"            : "Expend 100 energy to release a force field, blocking all attacks and protecting allies within. After 5s, an explosion occurs, dealing 1000% Physical damage.",
+        "Leader"              : "All team members' Defense +15%.",
+        "Class-passive"       : "Targets hit take 20% more damage for 5s.",
+        "SSRank"              : "Basic attack damage +15%, Aggro generation +20%.",
+        "SSSRank"             : "When core passive is triggered, Physical resistance +30%.",
+        "SSS+Rank"            : "After activating ultimate, damage +20% for 5s."
+      }
+    },
+    "Compositers" : {
+      "Camu-Crocotta" : {
+        "Core"                : "Attack +80% while in Catastrophe Zones. Gain 1 stack of Rage during 3-orbs, up to a maximum of 3 stacks. 3-orbs grant 8 energy during 3 stacks of Rage. All stacks are consumed when entering Berserk Mode, granting 6%/12%/20% damage increase for the duration.",
+        "RedOrb"              : "Perform a spinning attack and launch the enemy, dealing 2 instances of 300%/600%/900% Physical damage. Damage is converted to Dark element when it is a 3-orb.",
+        "RedOrb2"             : "Berserk Mode: Swiftly deal 2 instances of 520% Dark damage, followed by a heavy attack dealing 520% Dark damage.",
+        "BlueOrb"             : "Immediately break out of incoming attacks, dealing 270%/540%/810% Physical damage to the surroundings. Gain 5%/10%/15% HP worth of shield for 5s. Damage is converted to Dark element when it is a 3-orb.",
+        "BlueOrb2"            : "Berserk Mode: Pull the enemy towards self, striking twice and dealing a total of 920% Dark damage.",
+        "YellowOrb"           : "Rush and slash twice, dealing a total of 280%/560%/840% Physical damage. Damage is converted to Dark element when it is a 3-orb.",
+        "YellowOrb2"          : "Berserk Mode: Crush the enemy in a flash, dealing 360% Dark damage, followed by raising spikes from the ground, dealing 600% Dark damage.",
+        "Attack"              : "Continuously attack, dealing a total of 800% Physical damage.",
+        "Attack2"             : "Berserk Mode: Continuously perform swift attacks, dealing a total of 1240% Dark damage.",
+        "QTE"                 : "Rush towards the enemy, clawing them for a total of 640% Dark damage.",
+        "Ultimate"            : "Expend 80 energy to enter Berserk Mode and gain a Berserk gauge. Gain invincibility during the transition and mode. Dark damage is increased by 20%. Utilize special Red, Yellow and Blue signal orbs, all are considered as 3-orbs. Only 1 of each may be present at any time. Orbs will be generated again after 2s from expending them, up to 3 times. The gauge will drain over time as well as when damage is taken. The gauge freezes when Supercomputing Space is triggered. Exit Berserk Mode when the gauge is empty.",
+        "Leader"              : "All team members' Dark damage +10%, Vanguard Compositers' Attack +5%.",
+        "Class-passive"       : "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        "SSRank"              : "Damage +10% for 8s when expending Yellow orbs.",
+        "SSSRank"             : "Damage +15% during Berserk Mode. Gain 80 energy and 3 stacks of Frenzy at the start of battle.",
+        "SSS+Rank"            : "3-orb damage +20%."
+      },
+      "Qu-Peafowls-Plume" : {
+        "Core"                : "Attack +80% while in Catastrophe Zones. Gain 10 Homology points for each orb expended, up to 60 points. Orbs are enhanced when the gauge is full. Character will enter Condensed form when expending any orb after that. Enhanced orbs: Can only be expended 1 at a time. Expending the orbs count as 3-orb combos and triggers the Condensed effect, consuming 20 Homology points and energy will not be generated. During Condensed form, the gauge drains at 5 points a second. Exit the form when the gauge is empty; the Enhanced orb effect is canceled.",
+        "Core2"               : "Condensed Red: Strike the ground, dealing a total of 450% Physical damage.",
+        "Core3"               : "Condensed Yellow: Unleash a shockwave ahead, dealing 480% Physical damage.",
+        "Core4"               : "Condensed Blue: Unleash an accompanying whirlwind, dealing 480% Physical damage to nearby targets.",
+        "RedOrb"              : "Leap forward and slash for 80%/160%/240% Physical damage, causing a fissure and dealing 200%/400%/600% Physical damage. Gain Super Armor during the move.",
+        "BlueOrb"             : "Perform 2 sweeping attacks, dealing 260%/520%/780% Physical damage and gain Super Armor for 3s. Can break out of incoming attacks.",
+        "YellowOrb"           : "Unleash a 3-hit combo when target is within range, dealing a total of 270%/540%/810% Physical damage. Go into a sprint when target is far away or when there are no targets present. Perform the 3-hit combo when the sprint ends or when Basic attack button is pressed. The color of the display circle on the ground changes according to the distance from the target. Gain Super Armor during the move.",
+        "Attack"              : "Continuously attack with the polearm, dealing a total of 750% Physical damage.",
+        "QTE"                 : "Flash into the air and unleash 2 shockwaves towards the target's direction, dealing a total of 640% Physical damage.",
+        "Ultimate"            : "Expend 100 energy, summon Huiyu and perform a combination attack, dealing a total of 1400% Physical damage and gain 60 Homology points, entering Condensed form. Huiyu will continue attacking for 7s, dealing a total of 2240% Physical damage with the locked-on target as priority. Ultimate can not be activated again while Huiyu is present.",
+        "Leader"              : "All team members' Physical damage +10%, Vanguard Compositers' Attack +5%.",
+        "Class-passive"       : "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        "SSRank"              : "Basic attack damage +10%, Condensed effect damage +5%.",
+        "SSSRank"             : "Gain 100 energy at the start of battle. Physical damage +10% for 8s after triggering ultimate.",
+        "SSS+Rank"            : "Huiyu's damage +25%."
+      },
+      "Selena-Tempest" : {
+        "Core"                : "Attack +80% while in Catastrophe Zones. 3-orbs grant a Triad of the corresponding color. Expending orbs after that will trigger a Chord. Same Triad and Chord colors: Apply Concerto to the target: Deal 200% Lightning damage and target's damage is decreased by 30% for 8s. Different Triad and Chord colors: Apply Solo to self: Damage +20% for 8s. Gain Temperament charges corresponding to the number of orbs expended to trigger Chord.",
+        "RedOrb"              : "Leap and plunge the cello blade into the ground, summoning a lightning strike on the target, dealing 240%/480%/720% Lightning damage.",
+        "BlueOrb"             : "Twirl backwards while leaving behind an electrical vortex, drawing enemies in and dealing 240%/480%/720% Lightning damage.",
+        "YellowOrb"           : "Assault forward with the bow, dealing 240%/480%/720% Lightning damage. Gain Super Armor during the move.",
+        "Attack"              : "Continuously attack with the cello blade, dealing a total of 852% Physical damage.",
+        "QTE"                 : "Swiftly attack the target, dealing a total of 640% Lightning damage.",
+        "Ultimate"            : "While Temperament is active, expend 60 energy to enter Chaotic Sea of Consciousness state. Solo buff duration is renewed. Gain Staccato orbs corresponding to the Temperament charge for 6s, granting 30% movement speed increase and 50% damage reduction. Basic attacks or directly consuming Staccato orbs will unleash sound waves, striking twice and dealing a total of 650% Lightning damage. Exit ultimate when all Staccato orbs have been expended or when the duration has expired.",
+        "Leader"              : "All team members' Lightning damage +10%, Vanguard Compositers' Attack +5%.",
+        "Class-passive"       : "Gain +20% damage and 20% HP worth of shield for 10s whenever the character enters the battle.",
+        "SSRank"              : "Lightning damage +10%. Concerto is converted into a 12m radius AOE around self.",
+        "SSSRank"             : "Solo and Concerto are triggered together when triggering a Chord. Solo damage buff +20%. Concerto damage +50%.",
+        "SSS+Rank"            : "Lightning damage +10%. Ultimate damage +20%."
+      },
+      "themplate" : {
+        "Core"                : "",
+        "RedOrb"              : "",
+        "BlueOrb"             : "",
+        "YellowOrb"           : "",
+        "Attack"              : "",
+        "QTE"                 : "",
+        "Ultimate"            : "",
+        "Leader"              : "",
+        "Class-passive"       : "",
+        "SSRank"              : "",
+        "SSSRank"             : "",
+        "SSS+Rank"            : ""
+      }
+    }
+  }
+}
